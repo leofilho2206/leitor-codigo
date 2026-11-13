@@ -1,1 +1,3 @@
-Pasta reservada para a Sessão 2.
+03_Imagens — uma pasta por produto (P04, P05, P06, P07, P10).
+Leia primeiro GUIA_DE_FOTOS.txt (regras de cada marketplace e o que conferir).
+Para refazer as imagens depois de mudar algum texto: rode 05_Fontes\scripts\gerar_imagens.py.

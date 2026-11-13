@@ -1,1 +1,6 @@
-Pasta reservada para a Sessão 2.
+04_Anuncios — um arquivo por produto e marketplace: <ID>_<Produto>_<Marketplace>.txt (20 arquivos).
+Cada arquivo tem, pronto para copiar e colar: título (dentro do limite), categoria sugerida, preço à vista
+e parcelado, descrição, ficha técnica/atributos, variações, palavras-chave, respostas prontas para
+perguntas, a lista de imagens (na ordem de envio) e o que conferir antes de publicar.
+Anuncios_todos_os_canais.xlsx reúne títulos, categorias, preços e descrições em uma planilha.
+Limites de título usados: Mercado Livre 60, Amazon 75, Shopee 100, Magalu 100 caracteres.

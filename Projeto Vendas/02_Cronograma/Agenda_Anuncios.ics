@@ -1,0 +1,2088 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Projeto Vendas//Cronograma//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Projeto Vendas — Anúncios
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VTIMEZONE
+TZID:America/Sao_Paulo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:-03
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pv-001-20261114T0900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261114T090000
+DTEND;TZID=America/Sao_Paulo:20261114T093000
+SUMMARY:[Todos] Preparação: abrir MEI (gov.br) com CNAE de comércio var
+ ejista
+DESCRIPTION:Portal do Empreendedor (gratuito). Anote CNPJ. Depois peça a 
+ inscrição estadual na SEF/SC para emitir NF-e de produto.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Preparação: abrir MEI (gov.br) com CNAE de comércio
+  varejista
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-002-20261114T1000@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261114T100000
+DTEND;TZID=America/Sao_Paulo:20261114T103000
+SUMMARY:[Todos] Comprar estoque: pedir cotação a 3 fornecedores por prod
+ uto (WhatsApp)
+DESCRIPTION:Peça: preço por 10/30/50 un.\, prazo de entrega em Itajaí\,
+  NF\, fotos e autorização de uso das fotos. Lista de fornecedores na ab
+ a Premissas.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Comprar estoque: pedir cotação a 3 fornecedores por 
+ produto (WhatsApp)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-003-20261114T1400@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261114T140000
+DTEND;TZID=America/Sao_Paulo:20261114T143000
+SUMMARY:[Mercado Livre] Preparação: criar conta de vendedor (Mercado Liv
+ re) com o CNPJ
+DESCRIPTION:Amazon e Magalu podem levar 1–3 dias para aprovar a conta: p
+ or isso começamos já.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Preparação: criar conta de vendedor (Mercado
+  Livre) com o CNPJ
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-004-20261114T1500@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261114T150000
+DTEND;TZID=America/Sao_Paulo:20261114T153000
+SUMMARY:[Shopee] Preparação: criar conta de vendedor (Shopee) com o CNPJ
+DESCRIPTION:Amazon e Magalu podem levar 1–3 dias para aprovar a conta: p
+ or isso começamos já.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Preparação: criar conta de vendedor (Shopee) com o 
+ CNPJ
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-005-20261114T1600@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261114T160000
+DTEND;TZID=America/Sao_Paulo:20261114T163000
+SUMMARY:[Amazon] Preparação: criar conta de vendedor (Amazon) com o CNPJ
+DESCRIPTION:Amazon e Magalu podem levar 1–3 dias para aprovar a conta: p
+ or isso começamos já.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Preparação: criar conta de vendedor (Amazon) com o 
+ CNPJ
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-006-20261114T1700@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261114T170000
+DTEND;TZID=America/Sao_Paulo:20261114T173000
+SUMMARY:[Magalu] Preparação: criar conta de vendedor (Magalu) com o CNPJ
+DESCRIPTION:Amazon e Magalu podem levar 1–3 dias para aprovar a conta: p
+ or isso começamos já.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Preparação: criar conta de vendedor (Magalu) com o 
+ CNPJ
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-007-20261116T0900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261116T090000
+DTEND;TZID=America/Sao_Paulo:20261116T093000
+SUMMARY:[Todos] Preparação: configurar emissor de NF-e e embalagens
+DESCRIPTION:Emissor gratuito (Sebrae/ERP de marketplace). Comprar caixas\,
+  envelopes\, plástico bolha e etiquetas.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Preparação: configurar emissor de NF-e e embalagens
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-008-20261116T1400@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261116T140000
+DTEND;TZID=America/Sao_Paulo:20261116T143000
+SUMMARY:[Todos] Comprar estoque: fechar pedido e pagar — Toalha de praia
+  microfibra 160x80 + bolsa de tela
+DESCRIPTION:Fornecedor: Polo têxtil de Brusque/Blumenau (SC) ou atacadist
+ as do Brás (SP). Quantidade sugerida no lote 1: 20 un. (ESTIMADO). Prazo
+  2 dias úteis → chegada prevista 18/11/2026 (ESTIMADO\; 20/11 é feria
+ do).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Comprar estoque: fechar pedido e pagar — Toalha de p
+ raia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-009-20261116T1410@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261116T141000
+DTEND;TZID=America/Sao_Paulo:20261116T144000
+SUMMARY:[Todos] Comprar estoque: fechar pedido e pagar — Carteira slim R
+ FID de alumínio + caixa de presente
+DESCRIPTION:Fornecedor: Atacadistas/importadoras da 25 de Março (SP) ou i
+ mportadoras com CNPJ no 'Atacado' do ML. Quantidade sugerida no lote 1: 2
+ 0 un. (ESTIMADO). Prazo 5 dias úteis → chegada prevista 24/11/2026 (ES
+ TIMADO\; 20/11 é feriado).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Comprar estoque: fechar pedido e pagar — Carteira sl
+ im RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-010-20261116T1420@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261116T142000
+DTEND;TZID=America/Sao_Paulo:20261116T145000
+SUMMARY:[Todos] Comprar estoque: fechar pedido e pagar — Kit 7 organizad
+ ores de mala com necessaire
+DESCRIPTION:Fornecedor: Atacadistas do Brás (SP) ou importadoras de utili
+ dades de viagem (SP/SC). Quantidade sugerida no lote 1: 20 un. (ESTIMADO)
+ . Prazo 5 dias úteis → chegada prevista 24/11/2026 (ESTIMADO\; 20/11 
+ é feriado).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Comprar estoque: fechar pedido e pagar — Kit 7 organ
+ izadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-011-20261116T1430@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261116T143000
+DTEND;TZID=America/Sao_Paulo:20261116T150000
+SUMMARY:[Todos] Comprar estoque: fechar pedido e pagar — Kit churrasco i
+ nox 5 peças com maleta de bambu
+DESCRIPTION:Fornecedor: Distribuidores de utilidades domésticas (SP/SC) e
+  importadoras de Itajaí/Navegantes. Quantidade sugerida no lote 1: 20 un
+ . (ESTIMADO). Prazo 5 dias úteis → chegada prevista 24/11/2026 (ESTIMA
+ DO\; 20/11 é feriado).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Comprar estoque: fechar pedido e pagar — Kit churras
+ co inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-012-20261116T1440@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261116T144000
+DTEND;TZID=America/Sao_Paulo:20261116T151000
+SUMMARY:[Todos] Comprar estoque: fechar pedido e pagar — Kit 13 pincéis
+  de maquiagem + 3 esponjas
+DESCRIPTION:Fornecedor: Atacadistas de acessórios de beleza da 25 de Mar
+ ço (SP). Quantidade sugerida no lote 1: 20 un. (ESTIMADO). Prazo 5 dias 
+ úteis → chegada prevista 24/11/2026 (ESTIMADO\; 20/11 é feriado).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Comprar estoque: fechar pedido e pagar — Kit 13 pinc
+ éis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-013-20261118T1400@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261118T140000
+DTEND;TZID=America/Sao_Paulo:20261118T143000
+SUMMARY:[Todos] Receber estoque\, conferir e fotografar — Toalha de prai
+ a microfibra 160x80 + bolsa de tela
+DESCRIPTION:Conferir quantidade e qualidade\, comparar com as fotos do for
+ necedor e refazer a foto principal se o produto for diferente (03_Imagens
+ \\GUIA_DE_FOTOS.txt).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Receber estoque\, conferir e fotografar — Toalha de 
+ praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-014-20261119T0900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261119T090000
+DTEND;TZID=America/Sao_Paulo:20261119T093000
+SUMMARY:[Mercado Livre] Publicar anúncio — Toalha de praia microfibra 1
+ 60x80 + bolsa de tela
+DESCRIPTION:Título: Toalha De Praia Microfibra 160x80 Secagem Rápida Com
+  Bolsa\nPreço: R$ 59\,90\nImagens: 03_Imagens\\P07_Toalha_de_Praia\\anun
+ cio\\mercado_livre → 01_principal.jpg\, 02_foto.jpg\, 03_foto.jpg\, 04_
+ uso.jpg\nEstoque disponível desde 18/11. Publicar de manhã para o anún
+ cio estar aprovado e indexado antes do pico das 18h–23h. Texto: 04_Anun
+ cios\\P07_Toalha_de_Praia_MercadoLivre.txt. Lucro estimado R$ 20\,41 (34%
+ ).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Publicar anúncio — Toalha de praia microfib
+ ra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-015-20261119T0915@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261119T091500
+DTEND;TZID=America/Sao_Paulo:20261119T094500
+SUMMARY:[Shopee] Publicar anúncio — Toalha de praia microfibra 160x80 +
+  bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra Grande 160x80 cm Secagem R
+ ápida Solta Areia com Bolsa de Tela\nPreço: R$ 59\,90\nImagens: 03_Imag
+ ens\\P07_Toalha_de_Praia\\anuncio\\shopee → 01_principal.jpg\, 02_benef
+ icios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\
+ , 07_foto.jpg\nEstoque disponível desde 18/11. Publicar de manhã para o
+  anúncio estar aprovado e indexado antes do pico das 18h–23h. Texto: 0
+ 4_Anuncios\\P07_Toalha_de_Praia_Shopee.txt. Lucro estimado R$ 19\,07 (32%
+ ).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Publicar anúncio — Toalha de praia microfibra 160x
+ 80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-016-20261119T0930@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261119T093000
+DTEND;TZID=America/Sao_Paulo:20261119T100000
+SUMMARY:[Amazon] Publicar anúncio — Toalha de praia microfibra 160x80 +
+  bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra 160x80 cm Secagem Rápida 
+ com Bolsa de Tela\nPreço: R$ 59\,90\nImagens: 03_Imagens\\P07_Toalha_de_
+ Praia\\anuncio\\amazon → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_qu
+ e_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nEsto
+ que disponível desde 18/11. Publicar de manhã para o anúncio estar apr
+ ovado e indexado antes do pico das 18h–23h. Texto: 04_Anuncios\\P07_Toa
+ lha_de_Praia_Amazon.txt. Lucro estimado R$ 26\,36 (44%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Publicar anúncio — Toalha de praia microfibra 160x
+ 80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-017-20261119T0945@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261119T094500
+DTEND;TZID=America/Sao_Paulo:20261119T101500
+SUMMARY:[Magalu] Publicar anúncio — Toalha de praia microfibra 160x80 +
+  bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra Grande 160x80 cm Secagem R
+ ápida Leve Compacta com Bolsa de Tela\nPreço: R$ 59\,90\nImagens: 03_Im
+ agens\\P07_Toalha_de_Praia\\anuncio\\magalu → 01_principal.jpg\, 02_ben
+ eficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jp
+ g\, 07_foto.jpg\nEstoque disponível desde 18/11. Publicar de manhã para
+  o anúncio estar aprovado e indexado antes do pico das 18h–23h. Texto:
+  04_Anuncios\\P07_Toalha_de_Praia_Magalu.txt. Lucro estimado R$ 20\,96 (3
+ 5%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Publicar anúncio — Toalha de praia microfibra 160x
+ 80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-018-20261119T1400@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261119T140000
+DTEND;TZID=America/Sao_Paulo:20261119T143000
+SUMMARY:[Shopee] Ativar promoção: indicar o produto na campanha Black Fr
+ iday da Shopee — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra Grande 160x80 cm Secagem R
+ ápida Solta Areia com Bolsa de Tela\nPreço: R$ 59\,90\nImagens: 03_Imag
+ ens\\P07_Toalha_de_Praia\\anuncio\\shopee → 01_principal.jpg\, 02_benef
+ icios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\
+ , 07_foto.jpg\nCentral de Marketing › Campanhas › Black Friday (13–
+ 29/11). Aprovação NÃO garantida (só vendedores selecionados). Se não
+  for aprovado\, vale a promoção da loja abaixo.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção: indicar o produto na campanha Blac
+ k Friday da Shopee — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-019-20261123T0830@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261123T083000
+DTEND;TZID=America/Sao_Paulo:20261123T090000
+SUMMARY:[Todos] Ajustar preço: revisão semanal (preço dos concorrentes\
+ , estoque\, perguntas)
+DESCRIPTION:Comparar o seu preço com os 10 primeiros anúncios de cada ca
+ nal. Só baixar preço se o lucro estimado continuar positivo (planilha d
+ a pesquisa\, aba 4b).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: revisão semanal (preço dos concorren
+ tes\, estoque\, perguntas)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-020-20261124T1415@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261124T141500
+DTEND;TZID=America/Sao_Paulo:20261124T144500
+SUMMARY:[Todos] Receber estoque\, conferir e fotografar — Carteira slim 
+ RFID de alumínio + caixa de presente
+DESCRIPTION:Conferir quantidade e qualidade\, comparar com as fotos do for
+ necedor e refazer a foto principal se o produto for diferente (03_Imagens
+ \\GUIA_DE_FOTOS.txt).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Receber estoque\, conferir e fotografar — Carteira s
+ lim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-021-20261124T1430@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261124T143000
+DTEND;TZID=America/Sao_Paulo:20261124T150000
+SUMMARY:[Todos] Receber estoque\, conferir e fotografar — Kit 7 organiza
+ dores de mala com necessaire
+DESCRIPTION:Conferir quantidade e qualidade\, comparar com as fotos do for
+ necedor e refazer a foto principal se o produto for diferente (03_Imagens
+ \\GUIA_DE_FOTOS.txt).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Receber estoque\, conferir e fotografar — Kit 7 orga
+ nizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-022-20261124T1445@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261124T144500
+DTEND;TZID=America/Sao_Paulo:20261124T151500
+SUMMARY:[Todos] Receber estoque\, conferir e fotografar — Kit churrasco 
+ inox 5 peças com maleta de bambu
+DESCRIPTION:Conferir quantidade e qualidade\, comparar com as fotos do for
+ necedor e refazer a foto principal se o produto for diferente (03_Imagens
+ \\GUIA_DE_FOTOS.txt).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Receber estoque\, conferir e fotografar — Kit churra
+ sco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-023-20261124T1500@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261124T150000
+DTEND;TZID=America/Sao_Paulo:20261124T153000
+SUMMARY:[Todos] Receber estoque\, conferir e fotografar — Kit 13 pincéi
+ s de maquiagem + 3 esponjas
+DESCRIPTION:Conferir quantidade e qualidade\, comparar com as fotos do for
+ necedor e refazer a foto principal se o produto for diferente (03_Imagens
+ \\GUIA_DE_FOTOS.txt).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Receber estoque\, conferir e fotografar — Kit 13 pin
+ céis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-024-20261125T0900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T090000
+DTEND;TZID=America/Sao_Paulo:20261125T093000
+SUMMARY:[Mercado Livre] Publicar anúncio — Carteira slim RFID de alumí
+ nio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartão Alumínio Anti 
+ Rfid\nPreço: R$ 44\,90\nImagens: 03_Imagens\\P05_Carteira_Slim_RFID\\anu
+ ncio\\mercado_livre → 01_principal.jpg\, 02_foto.jpg\, 03_foto.jpg\, 04
+ _uso.jpg\nEstoque disponível desde 24/11. Publicar de manhã para o anú
+ ncio estar aprovado e indexado antes do pico das 18h–23h. Texto: 04_Anu
+ ncios\\P05_Carteira_Slim_RFID_MercadoLivre.txt. Lucro estimado R$ 14\,96 
+ (33%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Publicar anúncio — Carteira slim RFID de al
+ umínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-025-20261125T0915@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T091500
+DTEND;TZID=America/Sao_Paulo:20261125T094500
+SUMMARY:[Shopee] Publicar anúncio — Carteira slim RFID de alumínio + c
+ aixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões Alumínio Bloq
+ ueio RFID Ejetor Automático Caixa Presente\nPreço: R$ 44\,90\nImagens: 
+ 03_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\shopee → 01_principal.jpg\
+ , 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06
+ _foto.jpg\, 07_foto.jpg\nEstoque disponível desde 24/11. Publicar de man
+ hã para o anúncio estar aprovado e indexado antes do pico das 18h–23h
+ . Texto: 04_Anuncios\\P05_Carteira_Slim_RFID_Shopee.txt. Lucro estimado R
+ $ 14\,52 (32%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Publicar anúncio — Carteira slim RFID de alumínio
+  + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-026-20261125T0930@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T093000
+DTEND;TZID=America/Sao_Paulo:20261125T100000
+SUMMARY:[Amazon] Publicar anúncio — Carteira slim RFID de alumínio + c
+ aixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões de Alumínio c
+ om Bloqueio RFID\nPreço: R$ 44\,90\nImagens: 03_Imagens\\P05_Carteira_Sl
+ im_RFID\\anuncio\\amazon → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_
+ que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nEs
+ toque disponível desde 24/11. Publicar de manhã para o anúncio estar a
+ provado e indexado antes do pico das 18h–23h. Texto: 04_Anuncios\\P05_C
+ arteira_Slim_RFID_Amazon.txt. Lucro estimado R$ 19\,71 (44%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Publicar anúncio — Carteira slim RFID de alumínio
+  + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-027-20261125T0945@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T094500
+DTEND;TZID=America/Sao_Paulo:20261125T101500
+SUMMARY:[Magalu] Publicar anúncio — Carteira slim RFID de alumínio + c
+ aixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões de Alumínio B
+ loqueio RFID com Ejetor e Caixa de Presente\nPreço: R$ 44\,90\nImagens: 
+ 03_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\magalu → 01_principal.jpg\
+ , 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06
+ _foto.jpg\, 07_foto.jpg\nEstoque disponível desde 24/11. Publicar de man
+ hã para o anúncio estar aprovado e indexado antes do pico das 18h–23h
+ . Texto: 04_Anuncios\\P05_Carteira_Slim_RFID_Magalu.txt. Lucro estimado R
+ $ 15\,81 (35%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Publicar anúncio — Carteira slim RFID de alumínio
+  + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-028-20261125T1000@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T100000
+DTEND;TZID=America/Sao_Paulo:20261125T103000
+SUMMARY:[Mercado Livre] Publicar anúncio — Kit 7 organizadores de mala 
+ com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores De Mala Viagem Com Necessaire\nPr
+ eço: R$ 49\,90\nImagens: 03_Imagens\\P10_Organizador_de_Mala\\anuncio\\m
+ ercado_livre → 01_principal.jpg\, 02_foto.jpg\, 03_foto.jpg\, 04_uso.jp
+ g\nEstoque disponível desde 24/11. Publicar de manhã para o anúncio es
+ tar aprovado e indexado antes do pico das 18h–23h. Texto: 04_Anuncios\\
+ P10_Organizador_de_Mala_MercadoLivre.txt. Lucro estimado R$ 11\,21 (22%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Publicar anúncio — Kit 7 organizadores de m
+ ala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-029-20261125T1015@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T101500
+DTEND;TZID=America/Sao_Paulo:20261125T104500
+SUMMARY:[Shopee] Publicar anúncio — Kit 7 organizadores de mala com nec
+ essaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala Viagem com Necessaire Bol
+ sa para Sapato e Cubos com Tela\nPreço: R$ 49\,90\nImagens: 03_Imagens\\
+ P10_Organizador_de_Mala\\anuncio\\shopee → 01_principal.jpg\, 02_benefi
+ cios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\,
+  07_foto.jpg\nEstoque disponível desde 24/11. Publicar de manhã para o 
+ anúncio estar aprovado e indexado antes do pico das 18h–23h. Texto: 04
+ _Anuncios\\P10_Organizador_de_Mala_Shopee.txt. Lucro estimado R$ 10\,47 (
+ 21%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Publicar anúncio — Kit 7 organizadores de mala com
+  necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-030-20261125T1030@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T103000
+DTEND;TZID=America/Sao_Paulo:20261125T110000
+SUMMARY:[Amazon] Publicar anúncio — Kit 7 organizadores de mala com nec
+ essaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala para Viagem com Necessair
+ e e Bolsa de Sapato\nPreço: R$ 49\,90\nImagens: 03_Imagens\\P10_Organiza
+ dor_de_Mala\\anuncio\\amazon → 01_principal.jpg\, 02_beneficios.jpg\, 0
+ 3_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg
+ \nEstoque disponível desde 24/11. Publicar de manhã para o anúncio est
+ ar aprovado e indexado antes do pico das 18h–23h. Texto: 04_Anuncios\\P
+ 10_Organizador_de_Mala_Amazon.txt. Lucro estimado R$ 16\,96 (34%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Publicar anúncio — Kit 7 organizadores de mala com
+  necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-031-20261125T1045@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T104500
+DTEND;TZID=America/Sao_Paulo:20261125T111500
+SUMMARY:[Magalu] Publicar anúncio — Kit 7 organizadores de mala com nec
+ essaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala para Viagem com Necessair
+ e Bolsa para Sapato e Cubos com Tela\nPreço: R$ 49\,90\nImagens: 03_Imag
+ ens\\P10_Organizador_de_Mala\\anuncio\\magalu → 01_principal.jpg\, 02_b
+ eneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.
+ jpg\, 07_foto.jpg\nEstoque disponível desde 24/11. Publicar de manhã pa
+ ra o anúncio estar aprovado e indexado antes do pico das 18h–23h. Text
+ o: 04_Anuncios\\P10_Organizador_de_Mala_Magalu.txt. Lucro estimado R$ 11\
+ ,96 (24%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Publicar anúncio — Kit 7 organizadores de mala com
+  necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-032-20261125T1100@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T110000
+DTEND;TZID=America/Sao_Paulo:20261125T113000
+SUMMARY:[Mercado Livre] Publicar anúncio — Kit churrasco inox 5 peças 
+ com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças Com Maleta De Bambu Prese
+ nte\nPreço: R$ 119\,90\nImagens: 03_Imagens\\P06_Kit_Churrasco\\anuncio\
+ \mercado_livre → 01_principal.jpg\, 02_foto.jpg\, 03_foto.jpg\, 04_uso.
+ jpg\nEstoque disponível desde 24/11. Publicar de manhã para o anúncio 
+ estar aprovado e indexado antes do pico das 18h–23h. Texto: 04_Anuncios
+ \\P06_Kit_Churrasco_MercadoLivre.txt. Lucro estimado R$ 23\,82 (20%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Publicar anúncio — Kit churrasco inox 5 pe
+ ças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-033-20261125T1115@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T111500
+DTEND;TZID=America/Sao_Paulo:20261125T114500
+SUMMARY:[Shopee] Publicar anúncio — Kit churrasco inox 5 peças com mal
+ eta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças com Maleta de Bambu Cabo 
+ de Madeira Presente para Churrasqueiro\nPreço: R$ 119\,90\nImagens: 03_I
+ magens\\P06_Kit_Churrasco\\anuncio\\shopee → 01_principal.jpg\, 02_bene
+ ficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg
+ \, 07_foto.jpg\nEstoque disponível desde 24/11. Publicar de manhã para 
+ o anúncio estar aprovado e indexado antes do pico das 18h–23h. Texto: 
+ 04_Anuncios\\P06_Kit_Churrasco_Shopee.txt. Lucro estimado R$ 26\,42 (22%)
+ .
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Publicar anúncio — Kit churrasco inox 5 peças com
+  maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-034-20261125T1130@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T113000
+DTEND;TZID=America/Sao_Paulo:20261125T120000
+SUMMARY:[Amazon] Publicar anúncio — Kit churrasco inox 5 peças com mal
+ eta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças com Maleta de Bambu e Cab
+ os de Madeira\nPreço: R$ 119\,90\nImagens: 03_Imagens\\P06_Kit_Churrasco
+ \\anuncio\\amazon → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem
+ .jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nEstoque d
+ isponível desde 24/11. Publicar de manhã para o anúncio estar aprovado
+  e indexado antes do pico das 18h–23h. Texto: 04_Anuncios\\P06_Kit_Chur
+ rasco_Amazon.txt. Lucro estimado R$ 23\,82 (20%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Publicar anúncio — Kit churrasco inox 5 peças com
+  maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-035-20261125T1145@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T114500
+DTEND;TZID=America/Sao_Paulo:20261125T121500
+SUMMARY:[Magalu] Publicar anúncio — Kit churrasco inox 5 peças com mal
+ eta de bambu
+DESCRIPTION:Título: Kit Churrasco Aço Inox 5 Peças com Maleta de Bambu 
+ e Cabo de Madeira Presente para Churrasqueiro\nPreço: R$ 119\,90\nImagen
+ s: 03_Imagens\\P06_Kit_Churrasco\\anuncio\\magalu → 01_principal.jpg\, 
+ 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_f
+ oto.jpg\, 07_foto.jpg\nEstoque disponível desde 24/11. Publicar de manh
+ ã para o anúncio estar aprovado e indexado antes do pico das 18h–23h.
+  Texto: 04_Anuncios\\P06_Kit_Churrasco_Magalu.txt. Lucro estimado R$ 17\,
+ 02 (14%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Publicar anúncio — Kit churrasco inox 5 peças com
+  maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-036-20261125T1200@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T120000
+DTEND;TZID=America/Sao_Paulo:20261125T123000
+SUMMARY:[Mercado Livre] Publicar anúncio — Kit 13 pincéis de maquiagem
+  + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis De Maquiagem Cerdas Macias + 3 Esponj
+ as\nPreço: R$ 59\,90\nImagens: 03_Imagens\\P04_Kit_Pinceis_Maquiagem\\an
+ uncio\\mercado_livre → 01_principal.jpg\, 02_foto.jpg\, 03_uso.jpg\nEst
+ oque disponível desde 24/11. Publicar de manhã para o anúncio estar ap
+ rovado e indexado antes do pico das 18h–23h. Texto: 04_Anuncios\\P04_Ki
+ t_Pinceis_Maquiagem_MercadoLivre.txt. Lucro estimado R$ 22\,07 (37%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Publicar anúncio — Kit 13 pincéis de maqui
+ agem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-037-20261125T1215@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T121500
+DTEND;TZID=America/Sao_Paulo:20261125T124500
+SUMMARY:[Shopee] Publicar anúncio — Kit 13 pincéis de maquiagem + 3 es
+ ponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Profissional Cerdas Sint
+ éticas Macias + 3 Esponjas de Maquiagem\nPreço: R$ 59\,90\nImagens: 03_
+ Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\\shopee → 01_principal.jpg\
+ , 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06
+ _foto.jpg\nEstoque disponível desde 24/11. Publicar de manhã para o an
+ úncio estar aprovado e indexado antes do pico das 18h–23h. Texto: 04_A
+ nuncios\\P04_Kit_Pinceis_Maquiagem_Shopee.txt. Lucro estimado R$ 20\,13 (
+ 34%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Publicar anúncio — Kit 13 pincéis de maquiagem + 
+ 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-038-20261125T1230@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T123000
+DTEND;TZID=America/Sao_Paulo:20261125T130000
+SUMMARY:[Amazon] Publicar anúncio — Kit 13 pincéis de maquiagem + 3 es
+ ponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Cerdas Sintéticas Macia
+ s com 3 Esponjas\nPreço: R$ 59\,90\nImagens: 03_Imagens\\P04_Kit_Pinceis
+ _Maquiagem\\anuncio\\amazon → 01_principal.jpg\, 02_beneficios.jpg\, 03
+ _o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\nEstoque dispo
+ nível desde 24/11. Publicar de manhã para o anúncio estar aprovado e i
+ ndexado antes do pico das 18h–23h. Texto: 04_Anuncios\\P04_Kit_Pinceis_
+ Maquiagem_Amazon.txt. Lucro estimado R$ 26\,82 (45%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Publicar anúncio — Kit 13 pincéis de maquiagem + 
+ 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-039-20261125T1245@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T124500
+DTEND;TZID=America/Sao_Paulo:20261125T131500
+SUMMARY:[Magalu] Publicar anúncio — Kit 13 pincéis de maquiagem + 3 es
+ ponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Cerdas Sintéticas Macia
+ s Rosto e Olhos com 3 Esponjas de Maquiagem\nPreço: R$ 59\,90\nImagens: 
+ 03_Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\\magalu → 01_principal.j
+ pg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\,
+  06_foto.jpg\nEstoque disponível desde 24/11. Publicar de manhã para o 
+ anúncio estar aprovado e indexado antes do pico das 18h–23h. Texto: 04
+ _Anuncios\\P04_Kit_Pinceis_Maquiagem_Magalu.txt. Lucro estimado R$ 22\,02
+  (37%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Publicar anúncio — Kit 13 pincéis de maquiagem + 
+ 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-040-20261125T1400@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T140000
+DTEND;TZID=America/Sao_Paulo:20261125T143000
+SUMMARY:[Shopee] Ativar promoção: indicar o produto na campanha Black Fr
+ iday da Shopee — Carteira slim RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões Alumínio Bloq
+ ueio RFID Ejetor Automático Caixa Presente\nPreço: R$ 44\,90\nImagens: 
+ 03_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\shopee → 01_principal.jpg\
+ , 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06
+ _foto.jpg\, 07_foto.jpg\nCentral de Marketing › Campanhas › Black Fri
+ day (13–29/11). Aprovação NÃO garantida (só vendedores selecionados
+ ). Se não for aprovado\, vale a promoção da loja abaixo.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção: indicar o produto na campanha Blac
+ k Friday da Shopee — Carteira slim RFID de alumínio + caixa de present
+ e
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-041-20261125T1410@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T141000
+DTEND;TZID=America/Sao_Paulo:20261125T144000
+SUMMARY:[Shopee] Ativar promoção: indicar o produto na campanha Black Fr
+ iday da Shopee — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala Viagem com Necessaire Bol
+ sa para Sapato e Cubos com Tela\nPreço: R$ 49\,90\nImagens: 03_Imagens\\
+ P10_Organizador_de_Mala\\anuncio\\shopee → 01_principal.jpg\, 02_benefi
+ cios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\,
+  07_foto.jpg\nCentral de Marketing › Campanhas › Black Friday (13–2
+ 9/11). Aprovação NÃO garantida (só vendedores selecionados). Se não 
+ for aprovado\, vale a promoção da loja abaixo.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção: indicar o produto na campanha Blac
+ k Friday da Shopee — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-042-20261125T1420@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T142000
+DTEND;TZID=America/Sao_Paulo:20261125T145000
+SUMMARY:[Shopee] Ativar promoção: indicar o produto na campanha Black Fr
+ iday da Shopee — Kit churrasco inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças com Maleta de Bambu Cabo 
+ de Madeira Presente para Churrasqueiro\nPreço: R$ 119\,90\nImagens: 03_I
+ magens\\P06_Kit_Churrasco\\anuncio\\shopee → 01_principal.jpg\, 02_bene
+ ficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg
+ \, 07_foto.jpg\nCentral de Marketing › Campanhas › Black Friday (13
+ –29/11). Aprovação NÃO garantida (só vendedores selecionados). Se n
+ ão for aprovado\, vale a promoção da loja abaixo.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção: indicar o produto na campanha Blac
+ k Friday da Shopee — Kit churrasco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-043-20261125T1430@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T143000
+DTEND;TZID=America/Sao_Paulo:20261125T150000
+SUMMARY:[Shopee] Ativar promoção: indicar o produto na campanha Black Fr
+ iday da Shopee — Kit 13 pincéis de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Profissional Cerdas Sint
+ éticas Macias + 3 Esponjas de Maquiagem\nPreço: R$ 59\,90\nImagens: 03_
+ Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\\shopee → 01_principal.jpg\
+ , 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06
+ _foto.jpg\nCentral de Marketing › Campanhas › Black Friday (13–29/1
+ 1). Aprovação NÃO garantida (só vendedores selecionados). Se não for
+  aprovado\, vale a promoção da loja abaixo.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção: indicar o produto na campanha Blac
+ k Friday da Shopee — Kit 13 pincéis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-044-20261125T1600@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T160000
+DTEND;TZID=America/Sao_Paulo:20261125T163000
+SUMMARY:[Mercado Livre] Anúncio patrocinado: ativar campanha automática 
+ (todos os produtos)
+DESCRIPTION:ML: Mercado Ads (Product Ads) · Shopee: Shopee Ads automátic
+ o · Amazon: Sponsored Products automático · Magalu: Magalu Ads. Orçam
+ ento inicial R$ 10/dia por marketplace (≈5% do faturamento previsto\, j
+ á descontado na margem).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Anúncio patrocinado: ativar campanha automát
+ ica (todos os produtos)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-045-20261125T1615@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T161500
+DTEND;TZID=America/Sao_Paulo:20261125T164500
+SUMMARY:[Shopee] Anúncio patrocinado: ativar campanha automática (todos 
+ os produtos)
+DESCRIPTION:ML: Mercado Ads (Product Ads) · Shopee: Shopee Ads automátic
+ o · Amazon: Sponsored Products automático · Magalu: Magalu Ads. Orçam
+ ento inicial R$ 10/dia por marketplace (≈5% do faturamento previsto\, j
+ á descontado na margem).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Anúncio patrocinado: ativar campanha automática (to
+ dos os produtos)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-046-20261125T1630@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T163000
+DTEND;TZID=America/Sao_Paulo:20261125T170000
+SUMMARY:[Amazon] Anúncio patrocinado: ativar campanha automática (todos 
+ os produtos)
+DESCRIPTION:ML: Mercado Ads (Product Ads) · Shopee: Shopee Ads automátic
+ o · Amazon: Sponsored Products automático · Magalu: Magalu Ads. Orçam
+ ento inicial R$ 10/dia por marketplace (≈5% do faturamento previsto\, j
+ á descontado na margem).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Anúncio patrocinado: ativar campanha automática (to
+ dos os produtos)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-047-20261125T1645@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T164500
+DTEND;TZID=America/Sao_Paulo:20261125T171500
+SUMMARY:[Magalu] Anúncio patrocinado: ativar campanha automática (todos 
+ os produtos)
+DESCRIPTION:ML: Mercado Ads (Product Ads) · Shopee: Shopee Ads automátic
+ o · Amazon: Sponsored Products automático · Magalu: Magalu Ads. Orçam
+ ento inicial R$ 10/dia por marketplace (≈5% do faturamento previsto\, j
+ á descontado na margem).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Anúncio patrocinado: ativar campanha automática (to
+ dos os produtos)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-048-20261126T1500@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T150000
+DTEND;TZID=America/Sao_Paulo:20261126T153000
+SUMMARY:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday (10%
+  OFF) — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha De Praia Microfibra 160x80 Secagem Rápida Com
+  Bolsa\nPreço: R$ 59\,90 → promocional R$ 53\,90\nImagens: 03_Imagens\
+ \P07_Toalha_de_Praia\\anuncio\\mercado_livre → 01_principal.jpg\, 02_fo
+ to.jpg\, 03_foto.jpg\, 04_uso.jpg\nCentral de promoções › Desconto pr
+ óprio (desconto do vendedor). Período: 27/11 00:00 até 30/11 23:59 (BF
+ \, Cyber Monday e 1ª parcela do 13º). Preço promocional R$ 53\,90 → 
+ lucro estimado R$ 15\,79 (29%). Use como 'preço de' o preço praticado d
+ esde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday 
+ (10% OFF) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-049-20261126T1515@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T151500
+DTEND;TZID=America/Sao_Paulo:20261126T154500
+SUMMARY:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday (10%
+  OFF) — Carteira slim RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartão Alumínio Anti 
+ Rfid\nPreço: R$ 44\,90 → promocional R$ 39\,90\nImagens: 03_Imagens\\P
+ 05_Carteira_Slim_RFID\\anuncio\\mercado_livre → 01_principal.jpg\, 02_f
+ oto.jpg\, 03_foto.jpg\, 04_uso.jpg\nCentral de promoções › Desconto p
+ róprio (desconto do vendedor). Período: 27/11 00:00 até 30/11 23:59 (B
+ F\, Cyber Monday e 1ª parcela do 13º). Preço promocional R$ 39\,90 →
+  lucro estimado R$ 11\,11 (28%). Use como 'preço de' o preço praticado 
+ desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday 
+ (10% OFF) — Carteira slim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-050-20261126T1530@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T153000
+DTEND;TZID=America/Sao_Paulo:20261126T160000
+SUMMARY:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday (10%
+  OFF) — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores De Mala Viagem Com Necessaire\nPr
+ eço: R$ 49\,90 → promocional R$ 44\,90\nImagens: 03_Imagens\\P10_Organ
+ izador_de_Mala\\anuncio\\mercado_livre → 01_principal.jpg\, 02_foto.jpg
+ \, 03_foto.jpg\, 04_uso.jpg\nCentral de promoções › Desconto próprio
+  (desconto do vendedor). Período: 27/11 00:00 até 30/11 23:59 (BF\, Cyb
+ er Monday e 1ª parcela do 13º). Preço promocional R$ 44\,90 → lucro 
+ estimado R$ 7\,36 (16%). Use como 'preço de' o preço praticado desde a 
+ publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday 
+ (10% OFF) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-051-20261126T1545@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T154500
+DTEND;TZID=America/Sao_Paulo:20261126T161500
+SUMMARY:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday (10%
+  OFF) — Kit churrasco inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças Com Maleta De Bambu Prese
+ nte\nPreço: R$ 119\,90 → promocional R$ 107\,90\nImagens: 03_Imagens\\
+ P06_Kit_Churrasco\\anuncio\\mercado_livre → 01_principal.jpg\, 02_foto.
+ jpg\, 03_foto.jpg\, 04_uso.jpg\nCentral de promoções › Desconto próp
+ rio (desconto do vendedor). Período: 27/11 00:00 até 30/11 23:59 (BF\, 
+ Cyber Monday e 1ª parcela do 13º). Preço promocional R$ 107\,90 → lu
+ cro estimado R$ 14\,34 (13%). Use como 'preço de' o preço praticado des
+ de a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday 
+ (10% OFF) — Kit churrasco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-052-20261126T1600@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T160000
+DTEND;TZID=America/Sao_Paulo:20261126T163000
+SUMMARY:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday (10%
+  OFF) — Kit 13 pincéis de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis De Maquiagem Cerdas Macias + 3 Esponj
+ as\nPreço: R$ 59\,90 → promocional R$ 53\,90\nImagens: 03_Imagens\\P04
+ _Kit_Pinceis_Maquiagem\\anuncio\\mercado_livre → 01_principal.jpg\, 02_
+ foto.jpg\, 03_uso.jpg\nCentral de promoções › Desconto próprio (desc
+ onto do vendedor). Período: 27/11 00:00 até 30/11 23:59 (BF\, Cyber Mon
+ day e 1ª parcela do 13º). Preço promocional R$ 53\,90 → lucro estima
+ do R$ 17\,39 (32%). Use como 'preço de' o preço praticado desde a publi
+ cação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Ativar promoção Black Friday + Cyber Monday 
+ (10% OFF) — Kit 13 pincéis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-053-20261126T1615@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T161500
+DTEND;TZID=America/Sao_Paulo:20261126T164500
+SUMMARY:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OFF) 
+ — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra Grande 160x80 cm Secagem R
+ ápida Solta Areia com Bolsa de Tela\nPreço: R$ 59\,90 → promocional R
+ $ 53\,90\nImagens: 03_Imagens\\P07_Toalha_de_Praia\\anuncio\\shopee → 0
+ 1_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\,
+  05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCentral de Marketing › Promoç
+ ões da loja (desconto) — vale também se a campanha oficial não aprov
+ ar. Período: 27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parce
+ la do 13º). Preço promocional R$ 53\,90 → lucro estimado R$ 14\,81 (2
+ 7%). Use como 'preço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OF
+ F) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-054-20261126T1630@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T163000
+DTEND;TZID=America/Sao_Paulo:20261126T170000
+SUMMARY:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OFF) 
+ — Carteira slim RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões Alumínio Bloq
+ ueio RFID Ejetor Automático Caixa Presente\nPreço: R$ 44\,90 → promoc
+ ional R$ 39\,90\nImagens: 03_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\sh
+ opee → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_med
+ idas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCentral de Marketing 
+ › Promoções da loja (desconto) — vale também se a campanha oficial
+  não aprovar. Período: 27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday 
+ e 1ª parcela do 13º). Preço promocional R$ 39\,90 → lucro estimado R
+ $ 10\,97 (27%). Use como 'preço de' o preço praticado desde a publicaç
+ ão.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OF
+ F) — Carteira slim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-055-20261126T1645@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T164500
+DTEND;TZID=America/Sao_Paulo:20261126T171500
+SUMMARY:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OFF) 
+ — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala Viagem com Necessaire Bol
+ sa para Sapato e Cubos com Tela\nPreço: R$ 49\,90 → promocional R$ 44\
+ ,90\nImagens: 03_Imagens\\P10_Organizador_de_Mala\\anuncio\\shopee → 01
+ _principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 
+ 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCentral de Marketing › Promoç
+ ões da loja (desconto) — vale também se a campanha oficial não aprov
+ ar. Período: 27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parce
+ la do 13º). Preço promocional R$ 44\,90 → lucro estimado R$ 6\,92 (15
+ %). Use como 'preço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OF
+ F) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-056-20261126T1700@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T170000
+DTEND;TZID=America/Sao_Paulo:20261126T173000
+SUMMARY:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OFF) 
+ — Kit churrasco inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças com Maleta de Bambu Cabo 
+ de Madeira Presente para Churrasqueiro\nPreço: R$ 119\,90 → promociona
+ l R$ 107\,90\nImagens: 03_Imagens\\P06_Kit_Churrasco\\anuncio\\shopee →
+  01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg
+ \, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCentral de Marketing › Promo
+ ções da loja (desconto) — vale também se a campanha oficial não apr
+ ovar. Período: 27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª par
+ cela do 13º). Preço promocional R$ 107\,90 → lucro estimado R$ 17\,18
+  (16%). Use como 'preço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OF
+ F) — Kit churrasco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-057-20261126T1715@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T171500
+DTEND;TZID=America/Sao_Paulo:20261126T174500
+SUMMARY:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OFF) 
+ — Kit 13 pincéis de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Profissional Cerdas Sint
+ éticas Macias + 3 Esponjas de Maquiagem\nPreço: R$ 59\,90 → promocion
+ al R$ 53\,90\nImagens: 03_Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\\sh
+ opee → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_med
+ idas.jpg\, 05_uso.jpg\, 06_foto.jpg\nCentral de Marketing › Promoções
+  da loja (desconto) — vale também se a campanha oficial não aprovar. 
+ Período: 27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela d
+ o 13º). Preço promocional R$ 53\,90 → lucro estimado R$ 15\,87 (29%).
+  Use como 'preço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Ativar promoção Black Friday + Cyber Monday (10% OF
+ F) — Kit 13 pincéis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-058-20261126T1730@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T173000
+DTEND;TZID=America/Sao_Paulo:20261126T180000
+SUMMARY:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra 160x80 cm Secagem Rápida 
+ com Bolsa de Tela\nPreço: R$ 59\,90 → promocional R$ 54\,90\nImagens: 
+ 03_Imagens\\P07_Toalha_de_Praia\\anuncio\\amazon → 01_principal.jpg\, 0
+ 2_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_fo
+ to.jpg\, 07_foto.jpg\nSeller Central › Anunciar › Promoções › Des
+ conto percentual (ou cupom\; confira a tarifa do cupom). Período: 27/11 
+ 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). Preço 
+ promocional R$ 54\,90 → lucro estimado R$ 22\,41 (41%). Use como 'preç
+ o de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-059-20261126T1745@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T174500
+DTEND;TZID=America/Sao_Paulo:20261126T181500
+SUMMARY:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Carteira slim RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões de Alumínio c
+ om Bloqueio RFID\nPreço: R$ 44\,90 → promocional R$ 40\,90\nImagens: 0
+ 3_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\amazon → 01_principal.jpg\,
+  02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_
+ foto.jpg\, 07_foto.jpg\nSeller Central › Anunciar › Promoções › D
+ esconto percentual (ou cupom\; confira a tarifa do cupom). Período: 27/1
+ 1 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). Preç
+ o promocional R$ 40\,90 → lucro estimado R$ 16\,63 (41%). Use como 'pre
+ ço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Carteira slim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-060-20261126T1800@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T180000
+DTEND;TZID=America/Sao_Paulo:20261126T183000
+SUMMARY:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala para Viagem com Necessair
+ e e Bolsa de Sapato\nPreço: R$ 49\,90 → promocional R$ 45\,90\nImagens
+ : 03_Imagens\\P10_Organizador_de_Mala\\anuncio\\amazon → 01_principal.j
+ pg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\,
+  06_foto.jpg\, 07_foto.jpg\nSeller Central › Anunciar › Promoções 
+ › Desconto percentual (ou cupom\; confira a tarifa do cupom). Período:
+  27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). 
+ Preço promocional R$ 45\,90 → lucro estimado R$ 13\,80 (30%). Use como
+  'preço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-061-20261126T1815@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T181500
+DTEND;TZID=America/Sao_Paulo:20261126T184500
+SUMMARY:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Kit churrasco inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças com Maleta de Bambu e Cab
+ os de Madeira\nPreço: R$ 119\,90 → promocional R$ 109\,90\nImagens: 03
+ _Imagens\\P06_Kit_Churrasco\\anuncio\\amazon → 01_principal.jpg\, 02_be
+ neficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.j
+ pg\, 07_foto.jpg\nSeller Central › Anunciar › Promoções › Descont
+ o percentual (ou cupom\; confira a tarifa do cupom). Período: 27/11 00:0
+ 0 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). Preço prom
+ ocional R$ 109\,90 → lucro estimado R$ 15\,92 (14%). Use como 'preço d
+ e' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Kit churrasco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-062-20261126T1830@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T183000
+DTEND;TZID=America/Sao_Paulo:20261126T190000
+SUMMARY:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Kit 13 pincéis de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Cerdas Sintéticas Macia
+ s com 3 Esponjas\nPreço: R$ 59\,90 → promocional R$ 54\,90\nImagens: 0
+ 3_Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\\amazon → 01_principal.jp
+ g\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 
+ 06_foto.jpg\nSeller Central › Anunciar › Promoções › Desconto per
+ centual (ou cupom\; confira a tarifa do cupom). Período: 27/11 00:00 at
+ é 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). Preço promocio
+ nal R$ 54\,90 → lucro estimado R$ 22\,92 (42%). Use como 'preço de' o 
+ preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Kit 13 pincéis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-063-20261126T1845@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T184500
+DTEND;TZID=America/Sao_Paulo:20261126T191500
+SUMMARY:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra Grande 160x80 cm Secagem R
+ ápida Leve Compacta com Bolsa de Tela\nPreço: R$ 59\,90 → promocional
+  R$ 54\,90\nImagens: 03_Imagens\\P07_Toalha_de_Praia\\anuncio\\magalu →
+  01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg
+ \, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nSeller Portal › Preço promo
+ cional por período (ou campanha Magalu\, se convidado). Período: 27/11 
+ 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). Preço 
+ promocional R$ 54\,90 → lucro estimado R$ 17\,21 (31%). Use como 'preç
+ o de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-064-20261126T1900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T190000
+DTEND;TZID=America/Sao_Paulo:20261126T193000
+SUMMARY:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Carteira slim RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões de Alumínio B
+ loqueio RFID com Ejetor e Caixa de Presente\nPreço: R$ 44\,90 → promoc
+ ional R$ 40\,90\nImagens: 03_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\ma
+ galu → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_med
+ idas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nSeller Portal › Pre
+ ço promocional por período (ou campanha Magalu\, se convidado). Períod
+ o: 27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º)
+ . Preço promocional R$ 40\,90 → lucro estimado R$ 12\,81 (31%). Use co
+ mo 'preço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Carteira slim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-065-20261126T1915@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T191500
+DTEND;TZID=America/Sao_Paulo:20261126T194500
+SUMMARY:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala para Viagem com Necessair
+ e Bolsa para Sapato e Cubos com Tela\nPreço: R$ 49\,90 → promocional R
+ $ 45\,90\nImagens: 03_Imagens\\P10_Organizador_de_Mala\\anuncio\\magalu 
+ → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.
+ jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nSeller Portal › Preço pr
+ omocional por período (ou campanha Magalu\, se convidado). Período: 27/
+ 11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). Pre
+ ço promocional R$ 45\,90 → lucro estimado R$ 8\,96 (20%). Use como 'pr
+ eço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-066-20261126T1930@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T193000
+DTEND;TZID=America/Sao_Paulo:20261126T200000
+SUMMARY:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Kit churrasco inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Aço Inox 5 Peças com Maleta de Bambu 
+ e Cabo de Madeira Presente para Churrasqueiro\nPreço: R$ 119\,90 → pro
+ mocional R$ 109\,90\nImagens: 03_Imagens\\P06_Kit_Churrasco\\anuncio\\mag
+ alu → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medi
+ das.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nSeller Portal › Preç
+ o promocional por período (ou campanha Magalu\, se convidado). Período:
+  27/11 00:00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). 
+ Preço promocional R$ 109\,90 → lucro estimado R$ 9\,52 (9%). Use como 
+ 'preço de' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Kit churrasco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-067-20261126T1945@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261126T194500
+DTEND;TZID=America/Sao_Paulo:20261126T201500
+SUMMARY:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF) 
+ — Kit 13 pincéis de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Cerdas Sintéticas Macia
+ s Rosto e Olhos com 3 Esponjas de Maquiagem\nPreço: R$ 59\,90 → promoc
+ ional R$ 54\,90\nImagens: 03_Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\
+ \magalu → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_
+ medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\nSeller Portal › Preço promocio
+ nal por período (ou campanha Magalu\, se convidado). Período: 27/11 00:
+ 00 até 30/11 23:59 (BF\, Cyber Monday e 1ª parcela do 13º). Preço pro
+ mocional R$ 54\,90 → lucro estimado R$ 18\,27 (33%). Use como 'preço d
+ e' o preço praticado desde a publicação.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Ativar promoção Black Friday + Cyber Monday (8% OFF
+ ) — Kit 13 pincéis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-068-20261127T1200@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261127T120000
+DTEND;TZID=America/Sao_Paulo:20261127T123000
+SUMMARY:[Todos] Ajustar preço: conferir se as promoções estão ativas e
+  o estoque de cada canal
+DESCRIPTION:Abrir cada anúncio no celular\, conferir preço com desconto\
+ , estoque e prazo. Responder perguntas em até 1 h (influencia a convers
+ ão).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: conferir se as promoções estão ativ
+ as e o estoque de cada canal
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-069-20261127T1700@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261127T170000
+DTEND;TZID=America/Sao_Paulo:20261127T173000
+SUMMARY:[Mercado Livre] Anúncio patrocinado: dobrar orçamento para o pic
+ o da noite (27/11)
+DESCRIPTION:Black Friday: suba para R$ 20/dia hoje e volte a R$ 10/dia em 
+ 01/12. O pico de compras é das 18h às 23h.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Anúncio patrocinado: dobrar orçamento para o
+  pico da noite (27/11)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-070-20261127T1715@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261127T171500
+DTEND;TZID=America/Sao_Paulo:20261127T174500
+SUMMARY:[Shopee] Anúncio patrocinado: dobrar orçamento para o pico da no
+ ite (27/11)
+DESCRIPTION:Black Friday: suba para R$ 20/dia hoje e volte a R$ 10/dia em 
+ 01/12. O pico de compras é das 18h às 23h.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Anúncio patrocinado: dobrar orçamento para o pico d
+ a noite (27/11)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-071-20261127T1730@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261127T173000
+DTEND;TZID=America/Sao_Paulo:20261127T180000
+SUMMARY:[Amazon] Anúncio patrocinado: dobrar orçamento para o pico da no
+ ite (27/11)
+DESCRIPTION:Black Friday: suba para R$ 20/dia hoje e volte a R$ 10/dia em 
+ 01/12. O pico de compras é das 18h às 23h.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Anúncio patrocinado: dobrar orçamento para o pico d
+ a noite (27/11)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-072-20261127T1745@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261127T174500
+DTEND;TZID=America/Sao_Paulo:20261127T181500
+SUMMARY:[Magalu] Anúncio patrocinado: dobrar orçamento para o pico da no
+ ite (27/11)
+DESCRIPTION:Black Friday: suba para R$ 20/dia hoje e volte a R$ 10/dia em 
+ 01/12. O pico de compras é das 18h às 23h.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Anúncio patrocinado: dobrar orçamento para o pico d
+ a noite (27/11)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-073-20261130T1200@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261130T120000
+DTEND;TZID=America/Sao_Paulo:20261130T123000
+SUMMARY:[Todos] Ajustar preço: conferir Cyber Monday (último dia das pro
+ moções)
+DESCRIPTION:As promoções terminam às 23:59. Pagamento da 1ª parcela do
+  13º até hoje.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: conferir Cyber Monday (último dia das
+  promoções)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-074-20261201T0900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261201T090000
+DTEND;TZID=America/Sao_Paulo:20261201T093000
+SUMMARY:[Todos] Ajustar preço: promoções encerradas — conferir preço
+  normal e analisar vendas
+DESCRIPTION:Planilha 01_Pesquisa_de_Mercado: compare as vendas por produto
+ /canal. Produto sem venda em nenhum canal: revisar foto principal e títu
+ lo.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: promoções encerradas — conferir pr
+ eço normal e analisar vendas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-075-20261201T1000@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261201T100000
+DTEND;TZID=America/Sao_Paulo:20261201T103000
+SUMMARY:[Mercado Livre] Anúncio patrocinado: voltar orçamento para R$ 10
+ /dia
+DESCRIPTION:Pausar anúncios patrocinados de produtos com custo por venda 
+ acima de 5% do preço.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Anúncio patrocinado: voltar orçamento para R
+ $ 10/dia
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-076-20261201T1015@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261201T101500
+DTEND;TZID=America/Sao_Paulo:20261201T104500
+SUMMARY:[Shopee] Anúncio patrocinado: voltar orçamento para R$ 10/dia
+DESCRIPTION:Pausar anúncios patrocinados de produtos com custo por venda 
+ acima de 5% do preço.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Anúncio patrocinado: voltar orçamento para R$ 10/di
+ a
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-077-20261201T1030@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261201T103000
+DTEND;TZID=America/Sao_Paulo:20261201T110000
+SUMMARY:[Amazon] Anúncio patrocinado: voltar orçamento para R$ 10/dia
+DESCRIPTION:Pausar anúncios patrocinados de produtos com custo por venda 
+ acima de 5% do preço.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Anúncio patrocinado: voltar orçamento para R$ 10/di
+ a
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-078-20261201T1045@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261201T104500
+DTEND;TZID=America/Sao_Paulo:20261201T111500
+SUMMARY:[Magalu] Anúncio patrocinado: voltar orçamento para R$ 10/dia
+DESCRIPTION:Pausar anúncios patrocinados de produtos com custo por venda 
+ acima de 5% do preço.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Anúncio patrocinado: voltar orçamento para R$ 10/di
+ a
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-079-20261201T1400@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261201T140000
+DTEND;TZID=America/Sao_Paulo:20261201T143000
+SUMMARY:[Todos] Comprar estoque: pedido de reposição para o Natal
+DESCRIPTION:Repor os produtos que venderam (lote 2). Prazo de 2 a 5 dias 
+ úteis (ESTIMADO) → chegada até 08/12.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Comprar estoque: pedido de reposição para o Natal
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-080-20261207T0830@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261207T083000
+DTEND;TZID=America/Sao_Paulo:20261207T090000
+SUMMARY:[Todos] Ajustar preço: revisão semanal (preço dos concorrentes\
+ , estoque\, perguntas)
+DESCRIPTION:Comparar o seu preço com os 10 primeiros anúncios de cada ca
+ nal. Só baixar preço se o lucro estimado continuar positivo (planilha d
+ a pesquisa\, aba 4b).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: revisão semanal (preço dos concorren
+ tes\, estoque\, perguntas)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-081-20261208T1500@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261208T150000
+DTEND;TZID=America/Sao_Paulo:20261208T153000
+SUMMARY:[Mercado Livre] Comprar estoque: enviar lote ao Full (se o ML tive
+ r liberado o Full para sua conta)
+DESCRIPTION:Full = entrega em 1–2 dias e selo 'Full'\, decisivo nas últ
+ imas semanas antes do Natal. Se não estiver liberado\, mantenha o envio 
+ normal.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Comprar estoque: enviar lote ao Full (se o ML 
+ tiver liberado o Full para sua conta)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-082-20261213T2000@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T200000
+DTEND;TZID=America/Sao_Paulo:20261213T203000
+SUMMARY:[Mercado Livre] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit chu
+ rrasco inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças Com Maleta De Bambu Prese
+ nte\nPreço: R$ 119\,90 → promocional R$ 113\,91\nImagens: 03_Imagens\\
+ P06_Kit_Churrasco\\anuncio\\mercado_livre → 01_principal.jpg\, 02_foto.
+ jpg\, 03_foto.jpg\, 04_uso.jpg\nCupom da loja de 5% para a semana da 2ª 
+ parcela do 13º (até 20/12). Preço com cupom R$ 113\,91 → lucro estim
+ ado R$ 19\,09 (17%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit
+  churrasco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-083-20261213T2010@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T201000
+DTEND;TZID=America/Sao_Paulo:20261213T204000
+SUMMARY:[Mercado Livre] Cupom: 5% OFF de Natal (14/12 a 20/12) — Carteir
+ a slim RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartão Alumínio Anti 
+ Rfid\nPreço: R$ 44\,90 → promocional R$ 42\,65\nImagens: 03_Imagens\\P
+ 05_Carteira_Slim_RFID\\anuncio\\mercado_livre → 01_principal.jpg\, 02_f
+ oto.jpg\, 03_foto.jpg\, 04_uso.jpg\nCupom da loja de 5% para a semana da 
+ 2ª parcela do 13º (até 20/12). Preço com cupom R$ 42\,65 → lucro es
+ timado R$ 13\,23 (31%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Cupom: 5% OFF de Natal (14/12 a 20/12) — Car
+ teira slim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-084-20261213T2020@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T202000
+DTEND;TZID=America/Sao_Paulo:20261213T205000
+SUMMARY:[Mercado Livre] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit 13 
+ pincéis de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis De Maquiagem Cerdas Macias + 3 Esponj
+ as\nPreço: R$ 59\,90 → promocional R$ 56\,90\nImagens: 03_Imagens\\P04
+ _Kit_Pinceis_Maquiagem\\anuncio\\mercado_livre → 01_principal.jpg\, 02_
+ foto.jpg\, 03_uso.jpg\nCupom da loja de 5% para a semana da 2ª parcela d
+ o 13º (até 20/12). Preço com cupom R$ 56\,90 → lucro estimado R$ 19\
+ ,73 (35%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit
+  13 pincéis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-085-20261213T2030@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T203000
+DTEND;TZID=America/Sao_Paulo:20261213T210000
+SUMMARY:[Shopee] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit churrasco 
+ inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças com Maleta de Bambu Cabo 
+ de Madeira Presente para Churrasqueiro\nPreço: R$ 119\,90 → promociona
+ l R$ 113\,91\nImagens: 03_Imagens\\P06_Kit_Churrasco\\anuncio\\shopee →
+  01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg
+ \, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCupom da loja de 5% para a sem
+ ana da 2ª parcela do 13º (até 20/12). Preço com cupom R$ 113\,91 → 
+ lucro estimado R$ 21\,81 (19%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit churra
+ sco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-086-20261213T2040@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T204000
+DTEND;TZID=America/Sao_Paulo:20261213T211000
+SUMMARY:[Shopee] Cupom: 5% OFF de Natal (14/12 a 20/12) — Carteira slim 
+ RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões Alumínio Bloq
+ ueio RFID Ejetor Automático Caixa Presente\nPreço: R$ 44\,90 → promoc
+ ional R$ 42\,65\nImagens: 03_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\sh
+ opee → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_med
+ idas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCupom da loja de 5% pa
+ ra a semana da 2ª parcela do 13º (até 20/12). Preço com cupom R$ 42\,
+ 65 → lucro estimado R$ 12\,92 (30%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Cupom: 5% OFF de Natal (14/12 a 20/12) — Carteira s
+ lim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-087-20261213T2050@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T205000
+DTEND;TZID=America/Sao_Paulo:20261213T212000
+SUMMARY:[Shopee] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit 13 pincéi
+ s de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Profissional Cerdas Sint
+ éticas Macias + 3 Esponjas de Maquiagem\nPreço: R$ 59\,90 → promocion
+ al R$ 56\,90\nImagens: 03_Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\\sh
+ opee → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_med
+ idas.jpg\, 05_uso.jpg\, 06_foto.jpg\nCupom da loja de 5% para a semana da
+  2ª parcela do 13º (até 20/12). Preço com cupom R$ 56\,90 → lucro e
+ stimado R$ 18\,00 (32%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit 13 pin
+ céis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-088-20261213T2100@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T210000
+DTEND;TZID=America/Sao_Paulo:20261213T213000
+SUMMARY:[Amazon] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit churrasco 
+ inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Inox 5 Peças com Maleta de Bambu e Cab
+ os de Madeira\nPreço: R$ 119\,90 → promocional R$ 113\,91\nImagens: 03
+ _Imagens\\P06_Kit_Churrasco\\anuncio\\amazon → 01_principal.jpg\, 02_be
+ neficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.j
+ pg\, 07_foto.jpg\nCupom da loja de 5% para a semana da 2ª parcela do 13
+ º (até 20/12). Preço com cupom R$ 113\,91 → lucro estimado R$ 19\,09
+  (17%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit churra
+ sco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-089-20261213T2110@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T211000
+DTEND;TZID=America/Sao_Paulo:20261213T214000
+SUMMARY:[Amazon] Cupom: 5% OFF de Natal (14/12 a 20/12) — Carteira slim 
+ RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões de Alumínio c
+ om Bloqueio RFID\nPreço: R$ 44\,90 → promocional R$ 42\,65\nImagens: 0
+ 3_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\amazon → 01_principal.jpg\,
+  02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_
+ foto.jpg\, 07_foto.jpg\nCupom da loja de 5% para a semana da 2ª parcela 
+ do 13º (até 20/12). Preço com cupom R$ 42\,65 → lucro estimado R$ 17
+ \,98 (42%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Cupom: 5% OFF de Natal (14/12 a 20/12) — Carteira s
+ lim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-090-20261213T2120@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T212000
+DTEND;TZID=America/Sao_Paulo:20261213T215000
+SUMMARY:[Amazon] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit 13 pincéi
+ s de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Cerdas Sintéticas Macia
+ s com 3 Esponjas\nPreço: R$ 59\,90 → promocional R$ 56\,90\nImagens: 0
+ 3_Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\\amazon → 01_principal.jp
+ g\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 
+ 06_foto.jpg\nCupom da loja de 5% para a semana da 2ª parcela do 13º (at
+ é 20/12). Preço com cupom R$ 56\,90 → lucro estimado R$ 24\,48 (43%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit 13 pin
+ céis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-091-20261213T2130@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T213000
+DTEND;TZID=America/Sao_Paulo:20261213T220000
+SUMMARY:[Magalu] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit churrasco 
+ inox 5 peças com maleta de bambu
+DESCRIPTION:Título: Kit Churrasco Aço Inox 5 Peças com Maleta de Bambu 
+ e Cabo de Madeira Presente para Churrasqueiro\nPreço: R$ 119\,90 → pro
+ mocional R$ 113\,91\nImagens: 03_Imagens\\P06_Kit_Churrasco\\anuncio\\mag
+ alu → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_medi
+ das.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCupom da loja de 5% par
+ a a semana da 2ª parcela do 13º (até 20/12). Preço com cupom R$ 113\,
+ 91 → lucro estimado R$ 12\,53 (11%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit churra
+ sco inox 5 peças com maleta de bambu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-092-20261213T2140@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T214000
+DTEND;TZID=America/Sao_Paulo:20261213T221000
+SUMMARY:[Magalu] Cupom: 5% OFF de Natal (14/12 a 20/12) — Carteira slim 
+ RFID de alumínio + caixa de presente
+DESCRIPTION:Título: Carteira Slim Masculina Porta Cartões de Alumínio B
+ loqueio RFID com Ejetor e Caixa de Presente\nPreço: R$ 44\,90 → promoc
+ ional R$ 42\,65\nImagens: 03_Imagens\\P05_Carteira_Slim_RFID\\anuncio\\ma
+ galu → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_med
+ idas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nCupom da loja de 5% pa
+ ra a semana da 2ª parcela do 13º (até 20/12). Preço com cupom R$ 42\,
+ 65 → lucro estimado R$ 14\,13 (33%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Cupom: 5% OFF de Natal (14/12 a 20/12) — Carteira s
+ lim RFID de alumínio + caixa de presente
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-093-20261213T2150@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261213T215000
+DTEND;TZID=America/Sao_Paulo:20261213T222000
+SUMMARY:[Magalu] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit 13 pincéi
+ s de maquiagem + 3 esponjas
+DESCRIPTION:Título: Kit 13 Pincéis de Maquiagem Cerdas Sintéticas Macia
+ s Rosto e Olhos com 3 Esponjas de Maquiagem\nPreço: R$ 59\,90 → promoc
+ ional R$ 56\,90\nImagens: 03_Imagens\\P04_Kit_Pinceis_Maquiagem\\anuncio\
+ \magalu → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_que_vem.jpg\, 04_
+ medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\nCupom da loja de 5% para a semana
+  da 2ª parcela do 13º (até 20/12). Preço com cupom R$ 56\,90 → lucr
+ o estimado R$ 19\,77 (35%).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Cupom: 5% OFF de Natal (14/12 a 20/12) — Kit 13 pin
+ céis de maquiagem + 3 esponjas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-094-20261217T0900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261217T090000
+DTEND;TZID=America/Sao_Paulo:20261217T093000
+SUMMARY:[Todos] Ajustar preço: último dia recomendado de postagem para c
+ hegar antes do Natal
+DESCRIPTION:Depois de hoje\, entrega até 24/12 só é provável no Full/F
+ lex. Não prometa 'chega antes do Natal' em perguntas sem conferir o praz
+ o do anúncio.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: último dia recomendado de postagem pa
+ ra chegar antes do Natal
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-095-20261221T0900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261221T090000
+DTEND;TZID=America/Sao_Paulo:20261221T093000
+SUMMARY:[Todos] Ajustar preço: fim do cupom de Natal\; preparar o verão
+DESCRIPTION:A partir de agora o foco é a toalha de praia e o organizador 
+ de mala (férias).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: fim do cupom de Natal\; preparar o ver
+ ão
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-096-20261226T1900@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T190000
+DTEND;TZID=America/Sao_Paulo:20261226T193000
+SUMMARY:[Mercado Livre] Anúncio patrocinado: reforçar verão (R$ 15/dia 
+ até 10/01) — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha De Praia Microfibra 160x80 Secagem Rápida Com
+  Bolsa\nPreço: R$ 59\,90\nImagens: 03_Imagens\\P07_Toalha_de_Praia\\anun
+ cio\\mercado_livre → 01_principal.jpg\, 02_foto.jpg\, 03_foto.jpg\, 04_
+ uso.jpg\nPico de busca de toalha e mini ventilador em janeiro (Google Tre
+ nds). Organizador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Anúncio patrocinado: reforçar verão (R$ 15/
+ dia até 10/01) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-097-20261226T1907@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T190700
+DTEND;TZID=America/Sao_Paulo:20261226T193700
+SUMMARY:[Mercado Livre] Anúncio patrocinado: reforçar verão (R$ 15/dia 
+ até 10/01) — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores De Mala Viagem Com Necessaire\nPr
+ eço: R$ 49\,90\nImagens: 03_Imagens\\P10_Organizador_de_Mala\\anuncio\\m
+ ercado_livre → 01_principal.jpg\, 02_foto.jpg\, 03_foto.jpg\, 04_uso.jp
+ g\nPico de busca de toalha e mini ventilador em janeiro (Google Trends). 
+ Organizador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Mercado Livre] Anúncio patrocinado: reforçar verão (R$ 15/
+ dia até 10/01) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-098-20261226T1914@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T191400
+DTEND;TZID=America/Sao_Paulo:20261226T194400
+SUMMARY:[Shopee] Anúncio patrocinado: reforçar verão (R$ 15/dia até 10
+ /01) — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra Grande 160x80 cm Secagem R
+ ápida Solta Areia com Bolsa de Tela\nPreço: R$ 59\,90\nImagens: 03_Imag
+ ens\\P07_Toalha_de_Praia\\anuncio\\shopee → 01_principal.jpg\, 02_benef
+ icios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\
+ , 07_foto.jpg\nPico de busca de toalha e mini ventilador em janeiro (Goog
+ le Trends). Organizador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Anúncio patrocinado: reforçar verão (R$ 15/dia at
+ é 10/01) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-099-20261226T1921@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T192100
+DTEND;TZID=America/Sao_Paulo:20261226T195100
+SUMMARY:[Shopee] Anúncio patrocinado: reforçar verão (R$ 15/dia até 10
+ /01) — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala Viagem com Necessaire Bol
+ sa para Sapato e Cubos com Tela\nPreço: R$ 49\,90\nImagens: 03_Imagens\\
+ P10_Organizador_de_Mala\\anuncio\\shopee → 01_principal.jpg\, 02_benefi
+ cios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\,
+  07_foto.jpg\nPico de busca de toalha e mini ventilador em janeiro (Googl
+ e Trends). Organizador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Shopee] Anúncio patrocinado: reforçar verão (R$ 15/dia at
+ é 10/01) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-100-20261226T1928@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T192800
+DTEND;TZID=America/Sao_Paulo:20261226T195800
+SUMMARY:[Amazon] Anúncio patrocinado: reforçar verão (R$ 15/dia até 10
+ /01) — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra 160x80 cm Secagem Rápida 
+ com Bolsa de Tela\nPreço: R$ 59\,90\nImagens: 03_Imagens\\P07_Toalha_de_
+ Praia\\anuncio\\amazon → 01_principal.jpg\, 02_beneficios.jpg\, 03_o_qu
+ e_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg\nPico
+  de busca de toalha e mini ventilador em janeiro (Google Trends). Organiz
+ ador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Anúncio patrocinado: reforçar verão (R$ 15/dia at
+ é 10/01) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-101-20261226T1935@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T193500
+DTEND;TZID=America/Sao_Paulo:20261226T200500
+SUMMARY:[Amazon] Anúncio patrocinado: reforçar verão (R$ 15/dia até 10
+ /01) — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala para Viagem com Necessair
+ e e Bolsa de Sapato\nPreço: R$ 49\,90\nImagens: 03_Imagens\\P10_Organiza
+ dor_de_Mala\\anuncio\\amazon → 01_principal.jpg\, 02_beneficios.jpg\, 0
+ 3_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jpg\, 07_foto.jpg
+ \nPico de busca de toalha e mini ventilador em janeiro (Google Trends). O
+ rganizador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Amazon] Anúncio patrocinado: reforçar verão (R$ 15/dia at
+ é 10/01) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-102-20261226T1942@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T194200
+DTEND;TZID=America/Sao_Paulo:20261226T201200
+SUMMARY:[Magalu] Anúncio patrocinado: reforçar verão (R$ 15/dia até 10
+ /01) — Toalha de praia microfibra 160x80 + bolsa de tela
+DESCRIPTION:Título: Toalha de Praia Microfibra Grande 160x80 cm Secagem R
+ ápida Leve Compacta com Bolsa de Tela\nPreço: R$ 59\,90\nImagens: 03_Im
+ agens\\P07_Toalha_de_Praia\\anuncio\\magalu → 01_principal.jpg\, 02_ben
+ eficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.jp
+ g\, 07_foto.jpg\nPico de busca de toalha e mini ventilador em janeiro (Go
+ ogle Trends). Organizador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Anúncio patrocinado: reforçar verão (R$ 15/dia at
+ é 10/01) — Toalha de praia microfibra 160x80 + bolsa de tela
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-103-20261226T1949@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261226T194900
+DTEND;TZID=America/Sao_Paulo:20261226T201900
+SUMMARY:[Magalu] Anúncio patrocinado: reforçar verão (R$ 15/dia até 10
+ /01) — Kit 7 organizadores de mala com necessaire
+DESCRIPTION:Título: Kit 7 Organizadores de Mala para Viagem com Necessair
+ e Bolsa para Sapato e Cubos com Tela\nPreço: R$ 49\,90\nImagens: 03_Imag
+ ens\\P10_Organizador_de_Mala\\anuncio\\magalu → 01_principal.jpg\, 02_b
+ eneficios.jpg\, 03_o_que_vem.jpg\, 04_medidas.jpg\, 05_uso.jpg\, 06_foto.
+ jpg\, 07_foto.jpg\nPico de busca de toalha e mini ventilador em janeiro (
+ Google Trends). Organizador: férias de janeiro.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Magalu] Anúncio patrocinado: reforçar verão (R$ 15/dia at
+ é 10/01) — Kit 7 organizadores de mala com necessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-104-20261228T0830@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20261228T083000
+DTEND;TZID=America/Sao_Paulo:20261228T090000
+SUMMARY:[Todos] Ajustar preço: revisão semanal (preço dos concorrentes\
+ , estoque\, perguntas)
+DESCRIPTION:Comparar o seu preço com os 10 primeiros anúncios de cada ca
+ nal. Só baixar preço se o lucro estimado continuar positivo (planilha d
+ a pesquisa\, aba 4b).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: revisão semanal (preço dos concorren
+ tes\, estoque\, perguntas)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-105-20270104T0830@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20270104T083000
+DTEND;TZID=America/Sao_Paulo:20270104T090000
+SUMMARY:[Todos] Ajustar preço: revisão semanal (preço dos concorrentes\
+ , estoque\, perguntas)
+DESCRIPTION:Comparar o seu preço com os 10 primeiros anúncios de cada ca
+ nal. Só baixar preço se o lucro estimado continuar positivo (planilha d
+ a pesquisa\, aba 4b).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: revisão semanal (preço dos concorren
+ tes\, estoque\, perguntas)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pv-106-20270110T1000@projeto-vendas
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=America/Sao_Paulo:20270110T100000
+DTEND;TZID=America/Sao_Paulo:20270110T103000
+SUMMARY:[Todos] Ajustar preço: balanço da temporada e decisão do próxi
+ mo lote
+DESCRIPTION:Ver vendas por produto/canal. Manter os 2–3 melhores\, testa
+ r 1 reserva (mini ventilador\, se o INMETRO estiver ok).
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:[Todos] Ajustar preço: balanço da temporada e decisão do pr
+ óximo lote
+END:VALARM
+END:VEVENT
+END:VCALENDAR

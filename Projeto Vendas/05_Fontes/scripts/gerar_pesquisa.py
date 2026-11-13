@@ -232,7 +232,7 @@ pesos_row = ["", "", "Peso", PESOS["demanda"], PESOS["margem"], PESOS["concorren
 for j, v in enumerate(pesos_row, 1):
     c = ws.cell(row=5, column=j, value=v); c.font = Font(italic=True); c.number_format = '0%'
 decisao = {"P07": "ESCOLHIDO — verão/praia, melhor margem", "P05": "ESCOLHIDO — presente masculino de Natal", "P10": "ESCOLHIDO — férias de verão",
-           "P06": "ESCOLHIDO — Natal; só na versão presente", "P04": "ESCOLHIDO — só no kit com necessaire (Shopee avulso não paga)",
+           "P06": "ESCOLHIDO — Natal; kit com maleta de bambu", "P04": "ESCOLHIDO — só no kit com necessaire (Shopee avulso não paga)",
            "P01": "RESERVA — só se custo <= R$ 18 (frete pesa)",
            "P03": "RESERVA — sazonal, margem fina, confirmar INMETRO",
            "P11": "DESCARTADO — Anatel + devolução alta", "P12": "DESCARTADO — Anatel + marcas dominam",
@@ -446,16 +446,55 @@ pend = [
  ("Frete pago pelo vendedor (ML, Amazon, Magalu)", "Simular no anúncio com peso/medidas reais. Conta nova sem reputação paga frete cheio.", "Alta"),
  ("Enquadramento fiscal", "Abrir MEI (CNAE 4789-0/99 ou 4759-8/99 etc.) ou ME no Simples. Confirmar com contador se SC cobra ICMS-ST/antecipação nas compras de outro estado.", "Alta"),
  ("Mini ventilador — INMETRO", "Pedir ao fornecedor o registro INMETRO ou declaração de que o produto está fora do escopo; consultar o banco de produtos certificados do INMETRO.", "Alta"),
- ("Kit churrasco — material", "Confirmar aço inox (ex.: AISI 420 nas lâminas) e protetor de lâmina para o envio.", "Média"),
+ ("Kit churrasco — material", "Confirmar o tipo de aço inox, a maleta de bambu e se a faca vem com protetor de lâmina para o envio.", "Média"),
  ("Copo térmico — laudos", "Inox 304, tampa livre de BPA, teste de vazamento em 3 unidades da amostra.", "Média"),
  ("Toalha / organizador — etiqueta têxtil", "Etiqueta com composição, CNPJ, país de origem e instruções de lavagem (Conmetro 02/2008).", "Média"),
  ("Validação de preços (aba 8)", "Registrar 10 anúncios no ML e 10 na Shopee de cada escolhido; também olhar Amazon e Magalu.", "Média"),
- ("Prazo do fornecedor", "Para vender na Black Friday (27/11) o estoque precisa chegar até ~22/11; para o Natal, enviar ao Full até ~10/12.", "Alta"),
+ ("Prazo do fornecedor", "O cronograma assume pedido em 16/11 e chegada em 18/11 (toalha, SC) e 24/11 (demais, SP; 20/11 é feriado). Se o fornecedor demorar mais, empurre as publicações no cronograma.", "Alta"),
 ]
 cab(wpd, 3, ["Item", "Como confirmar", "Prioridade"], [36, 100, 10])
 for i, (a, b, c) in enumerate(pend):
     for j, v in enumerate([a, b, c], 1):
         cell = wpd.cell(row=4 + i, column=j, value=v); cell.alignment = WRAP; cell.border = BOX
+
+
+# 0. Escolhidos (resumo vivo, ligado à aba 4b)
+from dados_anuncios import PRODUTOS as ANUN
+we = wb.create_sheet("Escolhidos", 0)
+titulo(we, "Produtos escolhidos — formato de venda, preço, margem por marketplace e onde comprar",
+       "Valores de custo, lucro e margem são fórmulas ligadas à aba 4b (mude preço/custo lá). Amarelo = ESTIMADO. Atualizado em 14/11/2026.")
+cols = ["Ordem", "ID", "Produto (formato de venda)", "Preço de venda", "Custo total por unidade (ESTIMADO)",
+        "Lucro ML", "Margem ML", "Lucro Shopee", "Margem Shopee", "Lucro Amazon", "Margem Amazon", "Lucro Magalu", "Margem Magalu",
+        "Onde comprar (fornecedor nacional)", "Prazo de entrega (dias úteis, ESTIMADO)", "Fotos de referência do fornecedor", "Por que foi escolhido"]
+cab(we, 4, cols, [7, 6, 40, 11, 13, 11, 9, 11, 9, 11, 9, 11, 9, 46, 12, 50, 50])
+motivo = {"P07": "1º no ranking: verão/praia (Itapema), busca +18% em 12 meses, leve e quase sem devolução.",
+          "P05": "2º: presente masculino de Natal (dez. +38% no Google), 150 g, melhor margem percentual.",
+          "P10": "3º: férias de dez./jan.; 'necessaire' tem o 3º maior volume de busca; risco quase nulo.",
+          "P06": "4º: maior pico de Natal (dez. +64%) e maior lucro em reais por venda.",
+          "P04": "5º: presente feminino (dez. +37%); kit com esponjas dá margem acima de 30%."}
+K = "'4b_Kits_Recomendados'"
+CAN = ["Mercado Livre (Clássico)", "Shopee (CNPJ)", "Amazon (DBA)", "Magalu"]
+for i, a in enumerate(ANUN):
+    r_ = 5 + i; pid = a["id"]
+    we.cell(row=r_, column=1, value=i + 1); we.cell(row=r_, column=2, value=pid)
+    we.cell(row=r_, column=3, value=next(p["kit_nome"] for p in PRODUTOS if p["id"] == pid))
+    we.cell(row=r_, column=4, value=f'=SUMIFS({K}!$D:$D,{K}!$A:$A,B{r_},{K}!$C:$C,"{CAN[0]}")').number_format = BRL
+    we.cell(row=r_, column=5, value=f'=SUMIFS({K}!$M:$M,{K}!$A:$A,B{r_},{K}!$C:$C,"{CAN[0]}")').number_format = BRL
+    for j, cn in enumerate(CAN):
+        we.cell(row=r_, column=6 + 2 * j, value=f'=SUMIFS({K}!$O:$O,{K}!$A:$A,B{r_},{K}!$C:$C,"{cn}")').number_format = BRL
+        we.cell(row=r_, column=7 + 2 * j, value=f'=SUMIFS({K}!$P:$P,{K}!$A:$A,B{r_},{K}!$C:$C,"{cn}")').number_format = PCT
+    we.cell(row=r_, column=14, value=a["fornecedor_nacional"]); we.cell(row=r_, column=15, value=a["prazo_dias_uteis"])
+    we.cell(row=r_, column=16, value="Ver 05_Fontes\\Creditos_Imagens.txt (Alibaba)"); we.cell(row=r_, column=17, value=motivo[pid])
+    for j in range(1, 18):
+        c = we.cell(row=r_, column=j); c.border = BOX; c.alignment = WRAP
+    we.cell(row=r_, column=5).fill = EST; we.cell(row=r_, column=15).fill = EST
+    we.row_dimensions[r_].height = 48
+we.conditional_formatting.add("F5:M9", CellIsRule(operator="lessThan", formula=["0"], fill=BAD))
+n0 = 11
+for k, t in enumerate(["Reservas: mini ventilador portátil (verão; confirmar INMETRO) e copo térmico 1,2 L (só se o custo for até R$ 18).",
+                       "Descartados: fone Bluetooth e smartwatch (Anatel), garrafa motivacional, suporte veicular, removedor de pelos pet.",
+                       "Formato de cada kit definido pelas fotos dos fornecedores (Sessão 2): o que aparece nas fotos é o que vai no anúncio."]):
+    we.cell(row=n0 + k, column=1, value=t)
 
 wb.move_sheet("5_Parametros_Tarifas", offset=2)
 for s in wb.worksheets: s.sheet_view.zoomScale = 90

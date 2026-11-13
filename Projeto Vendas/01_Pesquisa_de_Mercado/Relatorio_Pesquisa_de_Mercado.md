@@ -1,8 +1,10 @@
 # Pesquisa de Mercado: revenda em marketplaces
 
 **Data da coleta:** 13/11/2026 (sexta-feira). Faltam **14 dias para a Black Friday** (27/11), 17 para a Cyber Monday (30/11) e 42 para o Natal.
-**Planilha com todos os números e fórmulas:** `Pesquisa_de_Mercado.xlsx` (nesta pasta).
+**Planilha com todos os números e fórmulas:** `Pesquisa_de_Mercado.xlsx` (nesta pasta; comece pela aba **Escolhidos**).
 **Legenda:** os valores marcados como **ESTIMADO** precisam ser confirmados (lista na seção 9).
+
+> **Atualização de 14/11/2026 (Sessão 2):** o conteúdo de cada kit foi ajustado às fotos dos fornecedores encontrados. A toalha vem com bolsa de tela (não estanque) e passou a R$ 59,90. O kit churrasco vem em maleta de bambu, sem avental, e passou a R$ 119,90. O kit de pincéis tem 13 pincéis + 3 esponjas, sem necessaire. A carteira é de alumínio (9,5 × 6 × 0,9 cm). Preços, custos e margens abaixo já estão atualizados e batem com a aba **Escolhidos** da planilha, com os anúncios e com o cronograma.
 
 ---
 
@@ -12,17 +14,17 @@ Dos 12 candidatos analisados, recomendo começar com **5 produtos**, sempre no *
 
 | # | Produto (formato de venda) | Preço sugerido | Custo total/un. (ESTIMADO) | Lucro/venda no ML | Margem ML | Por que entra |
 |---|---|---|---|---|---|---|
-| 1 | **Toalha de praia microfibra + bolsa estanque** | R$ 64,90 | R$ 23,20 | R$ 20,02 | 31% | Maior nota no ranking. Busca crescendo (+18% em 12 meses) e verão em Itapema/BC. Leve, não quebra, quase sem devolução |
-| 2 | **Carteira slim RFID + caixa de presente** | R$ 44,90 | R$ 12,86 | R$ 14,96 | 33% | Presente masculino de Natal (dezembro +38% no Google). Pesa 150 g e tem a melhor margem percentual |
-| 3 | **Kit 6 organizadores de mala + necessaire** | R$ 49,90 | R$ 20,46 | R$ 11,21 | 22% | Férias de dezembro e janeiro. "Necessaire" tem o 3º maior volume de busca medido. Risco quase nulo |
-| 4 | **Kit churrasco inox 5 peças com maleta + avental** | R$ 129,90 | R$ 53,32 | R$ 24,30 | 19% | Maior pico de Natal entre os 12 (dezembro +64%). Maior lucro em reais por venda |
-| 5 | **Kit 12 pincéis de maquiagem + necessaire + esponja** | R$ 59,90 | R$ 20,02 | R$ 19,95 | 33% | Presente feminino (dezembro +37%). Margem alta no kit. Avulso não compete com a Shopee a R$ 10 |
+| 1 | **Toalha de praia microfibra 160×80 + bolsa de tela** | R$ 59,90 | R$ 18,96 | R$ 20,41 | 34% | Maior nota no ranking. Busca crescendo (+18% em 12 meses) e verão em Itapema/BC. Leve, não quebra, quase sem devolução |
+| 2 | **Carteira slim RFID de alumínio + caixa de presente** | R$ 44,90 | R$ 12,86 | R$ 14,96 | 33% | Presente masculino de Natal (dezembro +38% no Google). Pesa 150 g e tem uma das melhores margens |
+| 3 | **Kit 7 organizadores de mala (com necessaire)** | R$ 49,90 | R$ 20,46 | R$ 11,21 | 22% | Férias de dezembro e janeiro. "Necessaire" tem o 3º maior volume de busca medido. Risco quase nulo |
+| 4 | **Kit churrasco inox 5 peças com maleta de bambu** | R$ 119,90 | R$ 45,90 | R$ 23,82 | 20% | Maior pico de Natal entre os 12 (dezembro +64%). Maior lucro em reais por venda |
+| 5 | **Kit 13 pincéis de maquiagem + 3 esponjas** | R$ 59,90 | R$ 17,90 | R$ 22,07 | 37% | Presente feminino (dezembro +37%). Margem alta no kit. Avulso não compete com a Shopee a R$ 10 |
 
 **Reservas:** mini ventilador portátil (verão forte, mas margem fina e enquadramento no INMETRO a confirmar) e copo térmico 1,2 L (muita demanda, mas só fecha a conta com custo de até R$ 18).
 
 **Descartados:** fone Bluetooth e smartwatch (homologação Anatel obrigatória, fiscalização ativa nos centros de distribuição, devolução alta e marcas grandes dominando), garrafa motivacional (demanda baixa, pico em setembro), suporte veicular e removedor de pelos pet (preço baixo e guerra de preço).
 
-> **Alerta de prazo.** Para vender na Black Friday, o estoque precisa estar com você até **~22/11**. Isso só é viável comprando de **atacado nacional** (SP ou região de Blumenau/Brusque/Itajaí) nesta semana. Importar não chega a tempo e, como mostra a seção 5, também não compensa em pequena quantidade. O Natal é a janela realista: enviar ao Full até ~10/12.
+> **Alerta de prazo.** A compra precisa ser de **atacado nacional**: importar não chega a tempo e, como mostra a seção 5, também não compensa em pequena quantidade. O cronograma (02_Cronograma) assume pedido em **16/11**, chegada da toalha (SC) em **18/11** e dos demais (SP) em **24/11**, porque 20/11 é feriado nacional. As publicações ficam em **19/11** (toalha) e **25/11** (demais), a tempo da Black Friday (27/11). Para o Natal, envie ao Full até ~10/12 se ele estiver liberado na sua conta.
 
 ![Ranking](graficos/2_ranking_candidatos.png)
 
@@ -164,11 +166,11 @@ Leitura:
 
 | Produto | Peso c/ embalagem | Caixa (cm) | Fragilidade | Risco de devolução | Cuidado |
 |---|---|---|---|---|---|
-| Toalha + bolsa | 0,45 kg | 25×18×5 | Nenhuma | Baixo | Informar medidas reais em cm |
-| Carteira + caixa | 0,15 kg | 14×10×3 | Nenhuma | Baixo | Dizer se cabe CNH/RG |
-| Kit organizador + necessaire | 0,55 kg | 30×22×5 | Nenhuma | Baixo | Testar zíper das amostras |
-| Kit churrasco + avental | 1,50 kg | 40×22×8 | Baixa | Baixo–médio | Fecho da maleta; protetor de lâmina |
-| Kit pincéis + necessaire | 0,30 kg | 22×10×5 | Baixa | Baixo | Fotos reais (cor/tamanho) |
+| Toalha + bolsa de tela | 0,40 kg | 25×18×6 | Nenhuma | Baixo | Informar medidas reais em cm |
+| Carteira + caixa | 0,15 kg | 14×10×3 | Nenhuma | Baixo | Dizer que cabem até 5 cartões e a CNH-cartão |
+| Kit 7 organizadores | 0,55 kg | 30×22×5 | Nenhuma | Baixo | Testar zíper das amostras |
+| Kit churrasco + maleta de bambu | 1,60 kg | 46×21×10 | Baixa | Baixo–médio | Fechos da maleta; protetor de lâmina |
+| Kit pincéis + 3 esponjas | 0,35 kg | 22×12×6 | Baixa | Baixo | Fotos reais (cor/tamanho) |
 
 Todos cabem em envelope/caixa pequena e podem ir para o **Full** (limite de 20 kg / 80 cm por lado).
 
@@ -191,7 +193,7 @@ Todos cabem em envelope/caixa pequena e podem ir para o **Full** (limite de 20 k
 | Removedor de pelos | 3 | 2,5 | 4 | 9 | 9 | 3 | 4,5 |
 | Garrafa motivacional | 3 | 2,8 | 4 | 7 | 7 | 3 | 4,1 |
 
-\* A nota de margem considera o produto **avulso** (média de ML e Shopee). No formato kit, as margens de organizador e churrasco sobem para 19–22% (aba 4b). Copo térmico e pincéis empataram (6,0). Os pincéis ficaram com a vaga porque o kit dá 33% de margem, contra prejuízo no kit de 2 copos.
+\* A nota de margem considera o produto **avulso** (média de ML e Shopee). No formato kit, as margens de organizador e churrasco sobem para 20–22% no ML (aba 4b). Copo térmico e pincéis empataram (6,0). Os pincéis ficaram com a vaga porque o kit dá 37% de margem no ML, contra prejuízo no kit de 2 copos.
 
 ### O que você precisa confirmar (também na aba 9 da planilha)
 1. **Custo real de atacado** dos 5 produtos (3 cotações cada, com NF e amostra). É o número que mais mexe na margem.

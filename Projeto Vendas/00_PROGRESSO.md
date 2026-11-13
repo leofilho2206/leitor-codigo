@@ -29,13 +29,28 @@
 - ML e Shopee bloqueiam a busca automática sem login, e Amazon e Magalu ficaram inacessíveis no ambiente. Os anúncios vieram de resultados indexados e agregadores. Foram 5 a 11 anúncios por produto no ML e 0 a 7 na Shopee: **a meta de 10 + 10 não foi atingida**. Para completar, use a aba `8_Validar_10_anuncios`.
 - Custos de atacado, frete pago pelo vendedor e algumas tarifas estão marcados como **ESTIMADO** (células amarelas).
 
+## Sessão 2 — Etapas 2, 3 e 4 (em andamento em 14/11/2026)
+- [x] Sessão 1 completada: aba **Escolhidos** na planilha e **Pesquisa_de_Mercado.pdf**
+- [x] Etapa 2: fotos de fornecedores (Alibaba) em `03_Imagens\<produto>\originais` + créditos em `05_Fontes\Creditos_Imagens.txt`
+- [x] Etapa 2: conjuntos de anúncio por marketplace (1200 px; ML sem texto; Shopee/Amazon/Magalu com artes)
+- [x] Etapa 3: 20 anúncios .txt + planilha consolidada
+- [x] Etapa 3: cronograma (.xlsx, .ics, .html) — 106 ações de 14/11/2026 a 10/01/2027
+- [ ] Etapa 4: revisão final em duas passadas + 00_LEIA-ME.txt
+
+### Decisões tomadas sem perguntar (anotadas)
+- Kits ajustados às fotos dos fornecedores: toalha com bolsa de tela (R$ 59,90); churrasco com maleta de bambu e sem avental (R$ 119,90); pincéis 13 + 3 esponjas; carteira de alumínio. A pesquisa foi recalculada com isso.
+- Fotos: só de fornecedores (Alibaba). A busca do Alibaba pede verificação humana; usamos as páginas públicas de produto. Fotos com logo/marca d'água foram descartadas.
+- Prazo de fornecedor ESTIMADO: 2 dias úteis (toalha, SC) e 5 dias úteis (demais, SP), com o feriado de 20/11.
+- Conta nova não entra nas campanhas oficiais de Black Friday (ML exige reputação; Shopee é seletiva): o cronograma usa promoções da própria loja (10% ML/Shopee, 8% Amazon/Magalu).
+- Ambiente: a sessão roda na nuvem, sem acesso ao seu PC. Use `Copiar_para_Area_de_Trabalho.bat` depois de baixar o branch.
+
 ## Para você fazer antes da Sessão 2
 - [ ] Cotar os 5 produtos com 3 fornecedores cada (aba `9_Confirmar`)
 - [ ] Completar a validação de 10 anúncios ML + 10 Shopee (aba 8)
 - [ ] Decidir MEI ou ME e conferir as tarifas no painel de vendedor
 - [ ] (Opcional) Na próxima sessão, rodar no seu PC (Claude Code no Windows ou Remote Control) para gravar direto na Área de Trabalho e acessar os marketplaces logado
 
-## Sessão 2 — A FAZER
+## Sessão 2 — plano original (concluído acima)
 - [ ] Etapa 2: imagens dos produtos (`03_Imagens`)
 - [ ] Etapa 3: anúncios — títulos, descrições e ficha técnica por marketplace (`04_Anuncios`)
 - [ ] Etapa 4: cronograma até o Natal (Black Friday 27/11, Cyber Monday 30/11, 13º em 30/11 e 20/12) (`02_Cronograma`)

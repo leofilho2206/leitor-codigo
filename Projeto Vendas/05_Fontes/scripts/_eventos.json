@@ -1,0 +1,638 @@
+[
+{
+"dt": "2026-11-14T09:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Preparação: abrir MEI (gov.br) com CNAE de comércio varejista"
+},
+{
+"dt": "2026-11-14T10:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Comprar estoque: pedir cotação a 3 fornecedores por produto (WhatsApp)"
+},
+{
+"dt": "2026-11-14T14:00:00",
+"mk": "Mercado Livre",
+"pid": null,
+"acao": "Preparação: criar conta de vendedor (Mercado Livre) com o CNPJ"
+},
+{
+"dt": "2026-11-14T15:00:00",
+"mk": "Shopee",
+"pid": null,
+"acao": "Preparação: criar conta de vendedor (Shopee) com o CNPJ"
+},
+{
+"dt": "2026-11-14T16:00:00",
+"mk": "Amazon",
+"pid": null,
+"acao": "Preparação: criar conta de vendedor (Amazon) com o CNPJ"
+},
+{
+"dt": "2026-11-14T17:00:00",
+"mk": "Magalu",
+"pid": null,
+"acao": "Preparação: criar conta de vendedor (Magalu) com o CNPJ"
+},
+{
+"dt": "2026-11-16T09:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Preparação: configurar emissor de NF-e e embalagens"
+},
+{
+"dt": "2026-11-16T14:00:00",
+"mk": "Todos",
+"pid": "P07",
+"acao": "Comprar estoque: fechar pedido e pagar"
+},
+{
+"dt": "2026-11-16T14:10:00",
+"mk": "Todos",
+"pid": "P05",
+"acao": "Comprar estoque: fechar pedido e pagar"
+},
+{
+"dt": "2026-11-16T14:20:00",
+"mk": "Todos",
+"pid": "P10",
+"acao": "Comprar estoque: fechar pedido e pagar"
+},
+{
+"dt": "2026-11-16T14:30:00",
+"mk": "Todos",
+"pid": "P06",
+"acao": "Comprar estoque: fechar pedido e pagar"
+},
+{
+"dt": "2026-11-16T14:40:00",
+"mk": "Todos",
+"pid": "P04",
+"acao": "Comprar estoque: fechar pedido e pagar"
+},
+{
+"dt": "2026-11-18T14:00:00",
+"mk": "Todos",
+"pid": "P07",
+"acao": "Receber estoque, conferir e fotografar"
+},
+{
+"dt": "2026-11-19T09:00:00",
+"mk": "Mercado Livre",
+"pid": "P07",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-19T09:15:00",
+"mk": "Shopee",
+"pid": "P07",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-19T09:30:00",
+"mk": "Amazon",
+"pid": "P07",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-19T09:45:00",
+"mk": "Magalu",
+"pid": "P07",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-19T14:00:00",
+"mk": "Shopee",
+"pid": "P07",
+"acao": "Ativar promoção: indicar o produto na campanha Black Friday da Shopee"
+},
+{
+"dt": "2026-11-23T08:30:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: revisão semanal (preço dos concorrentes, estoque, perguntas)"
+},
+{
+"dt": "2026-11-24T14:15:00",
+"mk": "Todos",
+"pid": "P05",
+"acao": "Receber estoque, conferir e fotografar"
+},
+{
+"dt": "2026-11-24T14:30:00",
+"mk": "Todos",
+"pid": "P10",
+"acao": "Receber estoque, conferir e fotografar"
+},
+{
+"dt": "2026-11-24T14:45:00",
+"mk": "Todos",
+"pid": "P06",
+"acao": "Receber estoque, conferir e fotografar"
+},
+{
+"dt": "2026-11-24T15:00:00",
+"mk": "Todos",
+"pid": "P04",
+"acao": "Receber estoque, conferir e fotografar"
+},
+{
+"dt": "2026-11-25T09:00:00",
+"mk": "Mercado Livre",
+"pid": "P05",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T09:15:00",
+"mk": "Shopee",
+"pid": "P05",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T09:30:00",
+"mk": "Amazon",
+"pid": "P05",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T09:45:00",
+"mk": "Magalu",
+"pid": "P05",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T10:00:00",
+"mk": "Mercado Livre",
+"pid": "P10",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T10:15:00",
+"mk": "Shopee",
+"pid": "P10",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T10:30:00",
+"mk": "Amazon",
+"pid": "P10",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T10:45:00",
+"mk": "Magalu",
+"pid": "P10",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T11:00:00",
+"mk": "Mercado Livre",
+"pid": "P06",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T11:15:00",
+"mk": "Shopee",
+"pid": "P06",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T11:30:00",
+"mk": "Amazon",
+"pid": "P06",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T11:45:00",
+"mk": "Magalu",
+"pid": "P06",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T12:00:00",
+"mk": "Mercado Livre",
+"pid": "P04",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T12:15:00",
+"mk": "Shopee",
+"pid": "P04",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T12:30:00",
+"mk": "Amazon",
+"pid": "P04",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T12:45:00",
+"mk": "Magalu",
+"pid": "P04",
+"acao": "Publicar anúncio"
+},
+{
+"dt": "2026-11-25T14:00:00",
+"mk": "Shopee",
+"pid": "P05",
+"acao": "Ativar promoção: indicar o produto na campanha Black Friday da Shopee"
+},
+{
+"dt": "2026-11-25T14:10:00",
+"mk": "Shopee",
+"pid": "P10",
+"acao": "Ativar promoção: indicar o produto na campanha Black Friday da Shopee"
+},
+{
+"dt": "2026-11-25T14:20:00",
+"mk": "Shopee",
+"pid": "P06",
+"acao": "Ativar promoção: indicar o produto na campanha Black Friday da Shopee"
+},
+{
+"dt": "2026-11-25T14:30:00",
+"mk": "Shopee",
+"pid": "P04",
+"acao": "Ativar promoção: indicar o produto na campanha Black Friday da Shopee"
+},
+{
+"dt": "2026-11-25T16:00:00",
+"mk": "Mercado Livre",
+"pid": null,
+"acao": "Anúncio patrocinado: ativar campanha automática (todos os produtos)"
+},
+{
+"dt": "2026-11-25T16:15:00",
+"mk": "Shopee",
+"pid": null,
+"acao": "Anúncio patrocinado: ativar campanha automática (todos os produtos)"
+},
+{
+"dt": "2026-11-25T16:30:00",
+"mk": "Amazon",
+"pid": null,
+"acao": "Anúncio patrocinado: ativar campanha automática (todos os produtos)"
+},
+{
+"dt": "2026-11-25T16:45:00",
+"mk": "Magalu",
+"pid": null,
+"acao": "Anúncio patrocinado: ativar campanha automática (todos os produtos)"
+},
+{
+"dt": "2026-11-26T15:00:00",
+"mk": "Mercado Livre",
+"pid": "P07",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T15:15:00",
+"mk": "Mercado Livre",
+"pid": "P05",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T15:30:00",
+"mk": "Mercado Livre",
+"pid": "P10",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T15:45:00",
+"mk": "Mercado Livre",
+"pid": "P06",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T16:00:00",
+"mk": "Mercado Livre",
+"pid": "P04",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T16:15:00",
+"mk": "Shopee",
+"pid": "P07",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T16:30:00",
+"mk": "Shopee",
+"pid": "P05",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T16:45:00",
+"mk": "Shopee",
+"pid": "P10",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T17:00:00",
+"mk": "Shopee",
+"pid": "P06",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T17:15:00",
+"mk": "Shopee",
+"pid": "P04",
+"acao": "Ativar promoção Black Friday + Cyber Monday (10% OFF)"
+},
+{
+"dt": "2026-11-26T17:30:00",
+"mk": "Amazon",
+"pid": "P07",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T17:45:00",
+"mk": "Amazon",
+"pid": "P05",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T18:00:00",
+"mk": "Amazon",
+"pid": "P10",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T18:15:00",
+"mk": "Amazon",
+"pid": "P06",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T18:30:00",
+"mk": "Amazon",
+"pid": "P04",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T18:45:00",
+"mk": "Magalu",
+"pid": "P07",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T19:00:00",
+"mk": "Magalu",
+"pid": "P05",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T19:15:00",
+"mk": "Magalu",
+"pid": "P10",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T19:30:00",
+"mk": "Magalu",
+"pid": "P06",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-26T19:45:00",
+"mk": "Magalu",
+"pid": "P04",
+"acao": "Ativar promoção Black Friday + Cyber Monday (8% OFF)"
+},
+{
+"dt": "2026-11-27T12:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: conferir se as promoções estão ativas e o estoque de cada canal"
+},
+{
+"dt": "2026-11-27T17:00:00",
+"mk": "Mercado Livre",
+"pid": null,
+"acao": "Anúncio patrocinado: dobrar orçamento para o pico da noite (27/11)"
+},
+{
+"dt": "2026-11-27T17:15:00",
+"mk": "Shopee",
+"pid": null,
+"acao": "Anúncio patrocinado: dobrar orçamento para o pico da noite (27/11)"
+},
+{
+"dt": "2026-11-27T17:30:00",
+"mk": "Amazon",
+"pid": null,
+"acao": "Anúncio patrocinado: dobrar orçamento para o pico da noite (27/11)"
+},
+{
+"dt": "2026-11-27T17:45:00",
+"mk": "Magalu",
+"pid": null,
+"acao": "Anúncio patrocinado: dobrar orçamento para o pico da noite (27/11)"
+},
+{
+"dt": "2026-11-30T12:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: conferir Cyber Monday (último dia das promoções)"
+},
+{
+"dt": "2026-12-01T09:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: promoções encerradas — conferir preço normal e analisar vendas"
+},
+{
+"dt": "2026-12-01T10:00:00",
+"mk": "Mercado Livre",
+"pid": null,
+"acao": "Anúncio patrocinado: voltar orçamento para R$ 10/dia"
+},
+{
+"dt": "2026-12-01T10:15:00",
+"mk": "Shopee",
+"pid": null,
+"acao": "Anúncio patrocinado: voltar orçamento para R$ 10/dia"
+},
+{
+"dt": "2026-12-01T10:30:00",
+"mk": "Amazon",
+"pid": null,
+"acao": "Anúncio patrocinado: voltar orçamento para R$ 10/dia"
+},
+{
+"dt": "2026-12-01T10:45:00",
+"mk": "Magalu",
+"pid": null,
+"acao": "Anúncio patrocinado: voltar orçamento para R$ 10/dia"
+},
+{
+"dt": "2026-12-01T14:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Comprar estoque: pedido de reposição para o Natal"
+},
+{
+"dt": "2026-12-07T08:30:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: revisão semanal (preço dos concorrentes, estoque, perguntas)"
+},
+{
+"dt": "2026-12-08T15:00:00",
+"mk": "Mercado Livre",
+"pid": null,
+"acao": "Comprar estoque: enviar lote ao Full (se o ML tiver liberado o Full para sua conta)"
+},
+{
+"dt": "2026-12-13T20:00:00",
+"mk": "Mercado Livre",
+"pid": "P06",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T20:10:00",
+"mk": "Mercado Livre",
+"pid": "P05",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T20:20:00",
+"mk": "Mercado Livre",
+"pid": "P04",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T20:30:00",
+"mk": "Shopee",
+"pid": "P06",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T20:40:00",
+"mk": "Shopee",
+"pid": "P05",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T20:50:00",
+"mk": "Shopee",
+"pid": "P04",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T21:00:00",
+"mk": "Amazon",
+"pid": "P06",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T21:10:00",
+"mk": "Amazon",
+"pid": "P05",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T21:20:00",
+"mk": "Amazon",
+"pid": "P04",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T21:30:00",
+"mk": "Magalu",
+"pid": "P06",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T21:40:00",
+"mk": "Magalu",
+"pid": "P05",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-13T21:50:00",
+"mk": "Magalu",
+"pid": "P04",
+"acao": "Cupom: 5% OFF de Natal (14/12 a 20/12)"
+},
+{
+"dt": "2026-12-17T09:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: último dia recomendado de postagem para chegar antes do Natal"
+},
+{
+"dt": "2026-12-21T09:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: fim do cupom de Natal; preparar o verão"
+},
+{
+"dt": "2026-12-26T19:00:00",
+"mk": "Mercado Livre",
+"pid": "P07",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-26T19:07:00",
+"mk": "Mercado Livre",
+"pid": "P10",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-26T19:14:00",
+"mk": "Shopee",
+"pid": "P07",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-26T19:21:00",
+"mk": "Shopee",
+"pid": "P10",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-26T19:28:00",
+"mk": "Amazon",
+"pid": "P07",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-26T19:35:00",
+"mk": "Amazon",
+"pid": "P10",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-26T19:42:00",
+"mk": "Magalu",
+"pid": "P07",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-26T19:49:00",
+"mk": "Magalu",
+"pid": "P10",
+"acao": "Anúncio patrocinado: reforçar verão (R$ 15/dia até 10/01)"
+},
+{
+"dt": "2026-12-28T08:30:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: revisão semanal (preço dos concorrentes, estoque, perguntas)"
+},
+{
+"dt": "2027-01-04T08:30:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: revisão semanal (preço dos concorrentes, estoque, perguntas)"
+},
+{
+"dt": "2027-01-10T10:00:00",
+"mk": "Todos",
+"pid": null,
+"acao": "Ajustar preço: balanço da temporada e decisão do próximo lote"
+}
+]

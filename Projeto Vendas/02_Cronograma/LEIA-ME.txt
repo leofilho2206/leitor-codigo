@@ -1,1 +1,9 @@
-Pasta reservada para a Sessão 2.
+02_Cronograma
+- Cronograma_de_Anuncios.xlsx: aba Geral + uma aba por marketplace (com filtros e cabeçalho congelado)
+  e aba Premissas_e_Fontes (prazos, horários e fontes).
+- Agenda_Anuncios.ics: importe no Google Agenda (Configurações > Importar e exportar > Importar).
+  Cada ação vira um evento de 30 min com lembrete 30 min antes. Dica: crie antes uma agenda
+  separada chamada "Projeto Vendas" e escolha ela na importação (assim dá para apagar tudo de uma vez).
+- Visualizar_Anuncios.html: abra no navegador (duplo clique). Mostra os 20 anúncios como vão ficar:
+  fotos, título, preço, preço de Black Friday, descrição, data/hora de publicação e todas as ações.
+  Precisa estar dentro da pasta "Projeto Vendas" (as imagens são lidas de 03_Imagens).

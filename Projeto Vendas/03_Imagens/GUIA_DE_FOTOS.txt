@@ -1,0 +1,45 @@
+GUIA DE FOTOS E REGRAS DE IMAGEM POR MARKETPLACE
+Atualizado em 14/11/2026
+
+1) O QUE TEM EM CADA PASTA DE PRODUTO
+   <produto>\originais\              fotos do FORNECEDOR, como baixadas (créditos em 05_Fontes\Creditos_Imagens.txt)
+   <produto>\anuncio\mercado_livre\  conjunto pronto para o Mercado Livre (só fotos SEM texto)
+   <produto>\anuncio\shopee\         principal + artes (benefícios, o que vem, medidas, uso) + fotos
+   <produto>\anuncio\amazon\         idem
+   <produto>\anuncio\magalu\         idem
+   Todas as imagens do anúncio: 1200 x 1200 px, JPG, menos de 1 MB, numeradas na ordem de envio.
+
+2) REGRAS SEGUIDAS (as mais restritivas, para valer em todos os canais)
+   Foto principal (01_principal.jpg): fundo branco puro, sem texto, sem logo, sem marca d'água,
+   produto ocupando cerca de 88% do quadro.
+   - Mercado Livre: foto principal com fundo branco e mínimo recomendado de 1200 x 1200 px; o ML
+     penaliza logos e textos sobre as fotos. Por isso o conjunto do ML não tem artes com texto.
+     Fonte: https://jaguarsheet.com/pt/blog/checklist-publicacion-perfecta-mercado-livre (consulta 14/11/2026)
+   - Amazon: imagem principal com fundo branco, sem marca d'água, bordas ou logo; imagens
+     secundárias podem ter infográficos. Fonte: https://www.upseller.com/pt/help-doc-article-1586 (consulta 14/11/2026)
+   - Shopee: até 8 imagens + vídeo; mínimo 500 x 500 px, recomendado 1024 x 1024 px; capa com fundo
+     branco/neutro e produto ocupando pelo menos 70%. Fontes: https://marketplace.anymarket.com.br/marketplaces/como-vender-pela-shopee/
+     e https://www.photoroom.com/pt-br/use-cases/sell-on-shopee (consulta 14/11/2026)
+   - Magalu: não encontramos a regra oficial atualizada; aplicamos o mesmo padrão (principal com fundo
+     branco, sem texto). Confira no Seller Portal ao cadastrar.
+
+3) AS FOTOS SÃO DO FORNECEDOR DE REFERÊNCIA — CONFIRA ANTES DE PUBLICAR
+   - Peça ao fornecedor que você comprar autorização para usar as fotos (ou as fotos dele).
+   - Se o produto recebido for diferente das fotos (cor, quantidade de peças, acabamento), refaça as
+     fotos (passo 4) e substitua. Anunciar com foto diferente do produto gera devolução e reclamação.
+   - Pontos já identificados:
+     * Organizador de mala: a foto principal do fornecedor tem banquinho e planta (objetos de cena).
+       Ao receber o estoque, fotografe as 7 peças sobre fundo branco e troque o 01_principal.jpg.
+     * Kit churrasco: o fornecedor não tem foto do kit em uso; a imagem "uso" é a maleta aberta.
+       Uma foto sua com o kit na churrasqueira vende mais.
+     * Kit de pincéis: o fornecedor anuncia 12 peças, mas a foto mostra 13 pincéis. Conte na amostra
+       e ajuste título, descrição e artes (05_Fontes\scripts\dados_anuncios.py) se for diferente.
+     * Pincéis cor rosa: há foto da variação rosa em originais\kit_pinceis_04.jpg, só se você vender essa cor.
+
+4) COMO FOTOGRAFAR COM O CELULAR (quando receber o estoque)
+   - Luz: perto de uma janela, de dia, sem sol direto. Desligue o flash.
+   - Fundo: cartolina branca formando uma "curva" (parede + mesa), sem dobra.
+   - Celular na horizontal da mesa, câmera principal (não use zoom digital), 1 m de distância.
+   - Fotos: 1 principal de frente, 1 em ângulo 45°, 1 de detalhe (zíper, fecho, cerdas, costura),
+     1 com algo de escala (mão, cartão) e 1 em uso (praia, mala, churrasqueira, penteadeira).
+   - Clareie o fundo até ficar branco em um editor gratuito (Canva, Photoroom ou Snapseed) e salve em 1200 x 1200 px.
