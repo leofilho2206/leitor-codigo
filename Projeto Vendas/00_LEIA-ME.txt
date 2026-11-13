@@ -1,37 +1,75 @@
-PROJETO VENDAS - revenda em marketplaces (Mercado Livre, Shopee, Amazon, Magalu)
-Atualizado em 13/11/2026 - Sessao 1 de 2 (Etapas 0 e 1) CONCLUIDA
+PROJETO VENDAS — revenda em marketplaces (Mercado Livre, Shopee, Amazon, Magalu)
+Atualizado em 14/11/2026 — Sessões 1 e 2 CONCLUÍDAS (pesquisa, imagens, anúncios, cronograma e revisão)
 
-COMECE POR AQUI
-1. 01_Pesquisa_de_Mercado\Relatorio_Pesquisa_de_Mercado.html
-   -> abra no navegador (duplo clique). Resumo, recomendacao e todas as fontes.
-2. 01_Pesquisa_de_Mercado\Pesquisa_de_Mercado.xlsx
-   -> planilha com formulas vivas. Celulas AMARELAS = valores ESTIMADOS.
-      Edite precos/custos (abas 4 e 4b) e tarifas (aba 5): tudo recalcula.
-3. 00_PROGRESSO.md -> o que ja foi feito e o que falta.
+=== O QUE TEM EM CADA PASTA ===
+00_LEIA-ME.txt ............ este arquivo
+00_PROGRESSO.md ........... o que foi feito, decisões tomadas e o que falta
+Copiar_para_Area_de_Trabalho.bat ... copia esta pasta para a sua Área de Trabalho (acha o caminho real, inclusive no OneDrive)
+01_Pesquisa_de_Mercado\ ... Pesquisa_de_Mercado.pdf (relatório), .html (mesmo relatório no navegador), .md,
+                             Pesquisa_de_Mercado.xlsx (comece pela aba Escolhidos; células amarelas = ESTIMADO) e graficos\
+02_Cronograma\ ............ Cronograma_de_Anuncios.xlsx, Agenda_Anuncios.ics (Google Agenda) e Visualizar_Anuncios.html
+03_Imagens\ ............... uma pasta por produto: originais\ (fotos do fornecedor) e anuncio\<marketplace>\ (prontas, 1200 px)
+                             GUIA_DE_FOTOS.txt = regras de imagem de cada marketplace e como fotografar
+04_Anuncios\ .............. 20 arquivos <produto>_<marketplace>.txt prontos para copiar e colar + planilha consolidada
+05_Fontes\ ................ Creditos_Imagens.txt, Relatorio_de_Revisao.txt, páginas oficiais salvas (Receita, Comsefaz),
+                             dados do Google Trends, downloads dos fornecedores e scripts que geram tudo
 
-ESTRUTURA
-  00_LEIA-ME.txt ............ este arquivo
-  00_PROGRESSO.md ........... controle de andamento (Sessao 1 e 2)
-  Copiar_para_Area_de_Trabalho.bat / .ps1 ... copia esta pasta para a sua Area de Trabalho
-  01_Pesquisa_de_Mercado\ ... relatorio (.md e .html), planilha e graficos
-  02_Cronograma\ ............ (Sessao 2)
-  03_Imagens\ ............... (Sessao 2)
-  04_Anuncios\ .............. (Sessao 2)
-  05_Fontes\ ................ dados brutos do Google Trends, paginas oficiais salvas
-                              (Receita Federal, Comsefaz) e scripts que geram tudo
+=== RESUMO DA PESQUISA: PRODUTOS RECOMENDADOS (formato kit/presente) ===
+Lucro por venda e margem = depois de comissão, tarifa fixa, frete pago pelo vendedor, 4% de imposto, 5% de anúncios,
+custo do produto, frete de compra e embalagem (valores ESTIMADOS até você cotar).
 
-PRODUTOS RECOMENDADOS (formato kit/presente)
-  1. Toalha de praia microfibra + bolsa estanque ........ R$ 64,90
-  2. Carteira slim RFID + caixa de presente ............. R$ 44,90
-  3. Kit 6 organizadores de mala + necessaire ........... R$ 49,90
-  4. Kit churrasco inox 5 pecas + maleta + avental ...... R$ 129,90
-  5. Kit 12 pinceis de maquiagem + necessaire + esponja . R$ 59,90
-  Reservas: mini ventilador portatil, copo termico 1,2 L.
+1. Toalha de praia microfibra 160x80 + bolsa de tela — R$ 59,90
+   Lucro/margem: ML R$ 20,41 (34%) · Shopee R$ 19,07 (32%) · Amazon R$ 26,36 (44%) · Magalu R$ 20,97 (35%)
+   Onde comprar: Polo têxtil de Brusque/Blumenau (SC) ou atacadistas do Brás (SP) (prazo ESTIMADO 2 dias úteis)
+   Por quê: 1º do ranking. Verão/praia (Itapema), busca +18% em 12 meses, leve e quase sem devolução.
 
-ANTES DE COMPRAR ESTOQUE: veja a aba "9_Confirmar" da planilha.
+2. Carteira slim RFID de alumínio + caixa de presente — R$ 44,90
+   Lucro/margem: ML R$ 14,96 (33%) · Shopee R$ 14,52 (32%) · Amazon R$ 19,71 (44%) · Magalu R$ 15,82 (35%)
+   Onde comprar: Atacadistas/importadoras da 25 de Março (SP) ou importadoras com CNPJ no 'Atacado' do ML (prazo ESTIMADO 5 dias úteis)
+   Por quê: Presente masculino de Natal (dez. +38% no Google). 150 g. Uma das melhores margens.
 
-COMO GERAR TUDO DE NOVO (opcional)
-  Instale Python 3 e rode no PowerShell, dentro de 05_Fontes\scripts:
-    pip install pandas matplotlib openpyxl markdown pytrends
-    python gerar_pesquisa.py
-    python gerar_html.py
+3. Kit 7 organizadores de mala com necessaire — R$ 49,90
+   Lucro/margem: ML R$ 11,21 (22%) · Shopee R$ 10,47 (21%) · Amazon R$ 16,96 (34%) · Magalu R$ 11,96 (24%)
+   Onde comprar: Atacadistas do Brás (SP) ou importadoras de utilidades de viagem (SP/SC) (prazo ESTIMADO 5 dias úteis)
+   Por quê: Férias de dez./jan. 'Necessaire' tem o 3º maior volume de busca medido. Risco quase nulo.
+
+4. Kit churrasco inox 5 peças com maleta de bambu — R$ 119,90
+   Lucro/margem: ML R$ 23,82 (20%) · Shopee R$ 26,42 (22%) · Amazon R$ 23,82 (20%) · Magalu R$ 17,03 (14%)
+   Onde comprar: Distribuidores de utilidades domésticas (SP/SC) e importadoras de Itajaí/Navegantes (prazo ESTIMADO 5 dias úteis)
+   Por quê: Maior pico de Natal (dez. +64%) e maior lucro em reais por venda.
+
+5. Kit 13 pincéis de maquiagem + 3 esponjas — R$ 59,90
+   Lucro/margem: ML R$ 22,07 (37%) · Shopee R$ 20,13 (34%) · Amazon R$ 26,82 (45%) · Magalu R$ 22,03 (37%)
+   Onde comprar: Atacadistas de acessórios de beleza da 25 de Março (SP) (prazo ESTIMADO 5 dias úteis)
+   Por quê: Presente feminino (dez. +37%). O kit com esponjas dá margem acima de 30%.
+
+Reservas: mini ventilador portátil (confirmar INMETRO) e copo térmico 1,2 L (só com custo até R$ 18).
+Descartados: fone Bluetooth e smartwatch (homologação Anatel), garrafa motivacional, suporte veicular, removedor de pelos.
+Importar não compensa agora: II 60% + ICMS-SC 17% (Receita Federal/Comsefaz). Compre no atacado nacional, com nota fiscal.
+
+=== COMO USAR O CRONOGRAMA ===
+1. Abra 02_Cronograma\Visualizar_Anuncios.html para ver os 20 anúncios como vão ficar.
+2. Importe 02_Cronograma\Agenda_Anuncios.ics no Google Agenda (Configurações > Importar e exportar).
+   São 106 ações de 14/11/2026 a 10/01/2027, cada uma com lembrete 30 minutos antes.
+3. Siga a planilha 02_Cronograma\Cronograma_de_Anuncios.xlsx (aba Geral ou a aba do marketplace; use os filtros).
+4. Na hora de publicar, abra o .txt do anúncio em 04_Anuncios e a pasta de imagens indicada.
+Datas-chave: cotação 14/11 (sáb.) · compra do estoque 16/11/2026 às 14:00 · 1ª publicação 19/11/2026 às 09:00 (toalha, ML)
+   · demais produtos 25/11 · promoções de Black Friday/Cyber Monday 27–30/11 · cupom de Natal + 13º 14–20/12 · verão até 10/01.
+Se o fornecedor atrasar: empurre a publicação (nunca publique sem estoque) e reimporte a agenda.
+
+=== O QUE VOCÊ PRECISA CONFIRMAR (antes de comprar e de publicar) ===
+[ ] Custo real de atacado dos 5 produtos (3 cotações cada, com nota fiscal e amostra) — é o que mais mexe na margem
+[ ] Prazo de entrega do fornecedor (o cronograma assume 2 dias úteis em SC e 5 em SP)
+[ ] Tarifas, comissões e frete no painel de vendedor de cada marketplace (com peso e medidas reais da embalagem)
+[ ] Enquadramento: MEI (inscrição estadual em SC para NF-e) ou ME no Simples; ICMS em compras de outro estado (contador)
+[ ] Se o produto recebido é igual às fotos do fornecedor; pedir autorização para usar as fotos (05_Fontes\Creditos_Imagens.txt)
+[ ] Organizador: refazer a foto principal (a do fornecedor tem objetos de cena) — 03_Imagens\GUIA_DE_FOTOS.txt
+[ ] Pincéis: contar os pincéis (o fornecedor anuncia 12; a foto mostra 13)
+[ ] Carteira: testar o bloqueio RFID com um cartão por aproximação
+[ ] Toalha/organizador: etiqueta têxtil (composição, CNPJ, origem, lavagem)
+[ ] Kit churrasco: tipo de aço e protetor de lâmina para o envio
+[ ] Se a sua conta nova consegue entrar nas campanhas oficiais de Black Friday (senão, use as promoções da loja, já no cronograma)
+[ ] Completar a validação de 10 anúncios no ML e 10 na Shopee por produto (aba 8 da pesquisa) — a coleta automática ficou abaixo da meta
+
+Para refazer tudo depois de mudar algum dado: veja 05_Fontes\scripts (dados_anuncios.py e dados_pesquisa.py) e rode
+gerar_pesquisa.py, gerar_html.py, gerar_imagens.py, gerar_anuncios.py, gerar_cronograma.py e auditar_projeto.py.

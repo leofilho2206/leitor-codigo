@@ -152,7 +152,7 @@ Leitura:
 | Toalha microfibra | Não exige INMETRO | **Etiqueta têxtil obrigatória** (composição, CNPJ, origem, cuidados — Resolução Conmetro 02/2008) | Baixo |
 | Carteira slim RFID | Não exige | Não usar marcas de terceiros (Secrid, Ridge…). A promessa de "bloqueio RFID" precisa ser verdadeira (CDC) | Baixo |
 | Organizador de mala | Não exige | Etiqueta de composição/origem | Baixo |
-| Kit churrasco | Não exige | Facas são permitidas, com venda a maiores de 18. Inox de grau alimentício. Não citar "Tramontina" se não for a marca. Protetor de lâmina no envio | Baixo–médio |
+| Kit churrasco | Não exige | Facas de cozinha podem ser vendidas (confira as regras da categoria; indique "recomendado para maiores de 18 anos"). Inox de grau alimentício. Não citar "Tramontina" se não for a marca. Protetor de lâmina no envio | Baixo–médio |
 | Kit pincéis | Não exige Anvisa (pincel não é cosmético) | Se incluir esponja/necessaire, tudo bem. **Não** incluir cosméticos sem registro | Baixo |
 | Copo térmico (reserva) | Não exige | Material em contato com alimento (inox 304, tampa sem BPA). **Nunca** usar "Stanley" ou "tipo Stanley" | Médio |
 | Mini ventilador (reserva) | **A confirmar.** As portarias do INMETRO para ventiladores tratam de aparelhos de tomada; o enquadramento de modelos a bateria/USB não foi confirmado | Bateria de lítio (restrição no transporte aéreo) | Médio |
@@ -206,6 +206,8 @@ Todos cabem em envelope/caixa pequena e podem ir para o **Full** (limite de 20 k
 ---
 
 ## Fontes
+Todas consultadas em 13/11/2026 (pesquisa) e 14/11/2026 (Sessão 2: fotos, horários e campanhas — ver 02_Cronograma, aba Premissas_e_Fontes, e 05_Fontes\Creditos_Imagens.txt).
+
 - Receita Federal — "Quanto vou pagar de imposto?" (Remessa Conforme), atualizada em 14/09/2026: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/remessas-postal-e-expressa/preciso-pagar-impostos-nas-compras-internacionais/quanto-pagarei-de-imposto (cópia em `05_Fontes/paginas_oficiais/rf_remessa_conforme.txt`)
 - Comsefaz — Alíquota de ICMS sobre importações pelo RTS por UF (Convênio ICMS 81/2023): https://comsefaz.org.br/novo/wp-content/uploads/2025/05/Aliquota-ICMS-import.-RTS-por-UF-17-e-20-CV81-23-v21-05-2025.pdf (cópia em `05_Fontes/paginas_oficiais/`)
 - MP 1.357/2026 (II zero até US$ 50) — InfoMoney: https://www.infomoney.com.br/economia/dou-extra-traz-mp-que-isenta-tributacao-para-compras-internacionais-ate-us-50/ ; aprovação no Senado — O Povo: https://mais.opovo.com.br/jornal/economia/2026/09/04/senado-aprova-mp-que-acaba-com-taxa-das-blusinhas-texto-vai-a-sancao-presidencial.html

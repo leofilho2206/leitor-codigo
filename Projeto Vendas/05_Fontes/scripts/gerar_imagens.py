@@ -161,7 +161,7 @@ def arte_medidas(p, foto):
 
 def arte_uso(p, foto):
     return f"""<img src="{foto}" style="position:absolute;inset:0;width:1200px;height:1200px;object-fit:cover">
-    <div style="position:absolute;left:0;right:0;bottom:0;height:420px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.72))"></div>
+    <div style="position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55) 35%,rgba(0,0,0,.85))"></div>
     <div style="position:absolute;left:64px;right:64px;bottom:70px;color:#fff">
       <div class="tag" style="background:{p['cor2']};color:#1b1b1b">Na prática</div>
       <div style="font-family:'Inter Display',Inter;font-weight:800;font-size:68px;line-height:1.05;margin-top:22px;letter-spacing:-1px">{html.escape(p['fotos_uso'][0])}</div>

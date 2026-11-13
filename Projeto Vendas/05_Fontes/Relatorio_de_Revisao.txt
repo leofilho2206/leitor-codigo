@@ -1,0 +1,46 @@
+RELATÓRIO DE REVISÃO (Etapa 4) — 14/11/2026
+
+Duas passadas completas com o script 05_Fontes\scripts\auditar_projeto.py, que refaz as contas do zero (tabelas de tarifa
+digitadas de novo, independentes do gerador) e confere todos os arquivos depois de recalcular as planilhas no LibreOffice.
+
+Itens conferidos: preços iguais na pesquisa (aba Escolhidos e 4b), no relatório, nos 20 .txt, no cronograma, no .ics e no HTML;
+lucro positivo em todas as 20 combinações e em todos os preços promocionais; datas no futuro, dia da semana correto, sem conflito,
+publicação só após a chegada do estoque e promoções só após a publicação; .ics com 106 eventos e lembrete de 30 min, horários
+iguais aos da planilha; 141 imagens do HTML carregando; imagens de anúncio 1200x1200, < 1 MB, principal com fundo branco,
+conjunto do ML sem texto; títulos dentro do limite e sem marcas de terceiros; planilhas sem erro de fórmula.
+
+Correções feitas durante a revisão:
+- Kits redefinidos pelas fotos reais dos fornecedores (toalha com bolsa de tela R$ 59,90; churrasco com maleta de bambu R$ 119,90;
+  pincéis 13 + 3 esponjas; carteira de alumínio 9,5 x 6 x 0,9 cm) e pesquisa recalculada.
+- Título da toalha (Shopee): 'Antiareia' trocado por 'Solta Areia' (promessa exagerada).
+- FAQ da toalha: 'cabe uma pessoa adulta deitada' era falso para 160 cm — corrigido.
+- Pincéis: removido 'Presente pronto' (não vem estojo) e a promessa de que as cerdas nunca soltam.
+- Carteira: removido 'alumínio anodizado' (não confirmado).
+- Churrasco: 'venda proibida para menores' (sem base clara) trocado por 'recomendado para maiores de 18 anos'; 'espátula 4 em 1' reescrita.
+- Cronograma: conflito de horário em 25/11 resolvido; configuração das promoções movida da noite para a tarde de 26/11.
+- Imagens: recorte de textos/promoções do fornecedor, foto rosa dos pincéis retirada do anúncio café, contraste da arte 'uso' melhorado.
+- Fontes: links e data de consulta adicionados na aba de tarifas da pesquisa e na lista de fontes do relatório.
+
+Resultado final: 0 erros. Avisos: P04: original de baixa resolução kit_pinceis_05.jpg (310, 310) (foto só de referência, não usada no anúncio).
+
+Margens refeitas (preço normal):
+  P07 Mercado Livre: preço R$ 59,90 → lucro R$ 20,41 (34.1%)
+  P07 Shopee: preço R$ 59,90 → lucro R$ 19,07 (31.8%)
+  P07 Amazon: preço R$ 59,90 → lucro R$ 26,36 (44.0%)
+  P07 Magalu: preço R$ 59,90 → lucro R$ 20,97 (35.0%)
+  P05 Mercado Livre: preço R$ 44,90 → lucro R$ 14,96 (33.3%)
+  P05 Shopee: preço R$ 44,90 → lucro R$ 14,52 (32.3%)
+  P05 Amazon: preço R$ 44,90 → lucro R$ 19,71 (43.9%)
+  P05 Magalu: preço R$ 44,90 → lucro R$ 15,82 (35.2%)
+  P10 Mercado Livre: preço R$ 49,90 → lucro R$ 11,21 (22.5%)
+  P10 Shopee: preço R$ 49,90 → lucro R$ 10,47 (21.0%)
+  P10 Amazon: preço R$ 49,90 → lucro R$ 16,96 (34.0%)
+  P10 Magalu: preço R$ 49,90 → lucro R$ 11,96 (24.0%)
+  P06 Mercado Livre: preço R$ 119,90 → lucro R$ 23,82 (19.9%)
+  P06 Shopee: preço R$ 119,90 → lucro R$ 26,42 (22.0%)
+  P06 Amazon: preço R$ 119,90 → lucro R$ 23,82 (19.9%)
+  P06 Magalu: preço R$ 119,90 → lucro R$ 17,03 (14.2%)
+  P04 Mercado Livre: preço R$ 59,90 → lucro R$ 22,07 (36.8%)
+  P04 Shopee: preço R$ 59,90 → lucro R$ 20,13 (33.6%)
+  P04 Amazon: preço R$ 59,90 → lucro R$ 26,82 (44.8%)
+  P04 Magalu: preço R$ 59,90 → lucro R$ 22,03 (36.8%)

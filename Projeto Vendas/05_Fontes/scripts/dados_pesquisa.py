@@ -56,7 +56,7 @@ PRODUTOS = [
       preco_ml=99.90, preco_shopee=89.90, preco_amz=99.90, preco_mgl=99.90,
       kit="Versão 'presente' com avental ou tábua (R$ 129,90)", trend="kit churrasco",
       notas_dem="Índice 37,9; o MAIOR fator de Natal entre os 12 (novembro +21%, dezembro +64%). Kits com maleta entre R$ 77 e R$ 110 com notas 4,7–4,9.",
-      legal="Facas de cozinha são permitidas nos marketplaces (sem venda a menores). Exigir aço inox de grau alimentício. Não usar 'Tramontina' se não for a marca.",
+      legal="Facas de cozinha podem ser vendidas nos marketplaces (confira as regras da categoria; indique \"recomendado para maiores de 18 anos\"). Exigir aço inox de grau alimentício. Não usar 'Tramontina' se não for a marca.",
       devol="Baixa-média: fecho da maleta e fio da faca. Embalar facas com protetor de lâmina."),
  dict(id="P07", kit_preco=59.9, kit_custo=16.0, kit_peso=0.40, kit_nome="Toalha 160x80 + bolsa de tela", nome="Toalha de praia microfibra grande (secagem rápida, não retém areia)", curto="Toalha de praia microfibra",
       categoria_ml=0.14, categoria_amz=0.12, custo_nac=15.0, fob_usd=2.50, peso_kg=0.35, dims="25x18x5", fragil="Nenhuma",
