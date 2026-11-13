@@ -1,0 +1,37 @@
+PROJETO VENDAS - revenda em marketplaces (Mercado Livre, Shopee, Amazon, Magalu)
+Atualizado em 13/11/2026 - Sessao 1 de 2 (Etapas 0 e 1) CONCLUIDA
+
+COMECE POR AQUI
+1. 01_Pesquisa_de_Mercado\Relatorio_Pesquisa_de_Mercado.html
+   -> abra no navegador (duplo clique). Resumo, recomendacao e todas as fontes.
+2. 01_Pesquisa_de_Mercado\Pesquisa_de_Mercado.xlsx
+   -> planilha com formulas vivas. Celulas AMARELAS = valores ESTIMADOS.
+      Edite precos/custos (abas 4 e 4b) e tarifas (aba 5): tudo recalcula.
+3. 00_PROGRESSO.md -> o que ja foi feito e o que falta.
+
+ESTRUTURA
+  00_LEIA-ME.txt ............ este arquivo
+  00_PROGRESSO.md ........... controle de andamento (Sessao 1 e 2)
+  Copiar_para_Area_de_Trabalho.bat / .ps1 ... copia esta pasta para a sua Area de Trabalho
+  01_Pesquisa_de_Mercado\ ... relatorio (.md e .html), planilha e graficos
+  02_Cronograma\ ............ (Sessao 2)
+  03_Imagens\ ............... (Sessao 2)
+  04_Anuncios\ .............. (Sessao 2)
+  05_Fontes\ ................ dados brutos do Google Trends, paginas oficiais salvas
+                              (Receita Federal, Comsefaz) e scripts que geram tudo
+
+PRODUTOS RECOMENDADOS (formato kit/presente)
+  1. Toalha de praia microfibra + bolsa estanque ........ R$ 64,90
+  2. Carteira slim RFID + caixa de presente ............. R$ 44,90
+  3. Kit 6 organizadores de mala + necessaire ........... R$ 49,90
+  4. Kit churrasco inox 5 pecas + maleta + avental ...... R$ 129,90
+  5. Kit 12 pinceis de maquiagem + necessaire + esponja . R$ 59,90
+  Reservas: mini ventilador portatil, copo termico 1,2 L.
+
+ANTES DE COMPRAR ESTOQUE: veja a aba "9_Confirmar" da planilha.
+
+COMO GERAR TUDO DE NOVO (opcional)
+  Instale Python 3 e rode no PowerShell, dentro de 05_Fontes\scripts:
+    pip install pandas matplotlib openpyxl markdown pytrends
+    python gerar_pesquisa.py
+    python gerar_html.py

@@ -1,0 +1,1384 @@
+{
+ "ranking": [
+  {
+   "id": "P07",
+   "produto": "Toalha de praia microfibra",
+   "demanda": 4,
+   "concorrencia": 6,
+   "logistica": 9,
+   "risco": 9,
+   "sazonalidade": 9,
+   "margem": 7.1,
+   "margem_media": 0.21230425763808314,
+   "total": 6.82,
+   "posicao": 1
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim RFID",
+   "demanda": 4,
+   "concorrencia": 5,
+   "logistica": 10,
+   "risco": 8,
+   "sazonalidade": 7,
+   "margem": 8.3,
+   "margem_media": 0.25049131671647606,
+   "total": 6.72,
+   "posicao": 2
+  },
+  {
+   "id": "P10",
+   "produto": "Organizador de mala 6 pç",
+   "demanda": 6,
+   "concorrencia": 5,
+   "logistica": 10,
+   "risco": 9,
+   "sazonalidade": 8,
+   "margem": 3.7,
+   "margem_media": 0.11100219451658334,
+   "total": 6.32,
+   "posicao": 3
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco com maleta",
+   "demanda": 7,
+   "concorrencia": 6,
+   "logistica": 6,
+   "risco": 7,
+   "sazonalidade": 10,
+   "margem": 3.4,
+   "margem_media": 0.1032752218291706,
+   "total": 6.15,
+   "posicao": 4
+  },
+  {
+   "id": "P04",
+   "produto": "Kit pincéis maquiagem",
+   "demanda": 5,
+   "concorrencia": 3,
+   "logistica": 9,
+   "risco": 8,
+   "sazonalidade": 7,
+   "margem": 6.2,
+   "margem_media": 0.1845084580375565,
+   "total": 6.05,
+   "posicao": 5
+  },
+  {
+   "id": "P01",
+   "produto": "Copo térmico 1,2 L",
+   "demanda": 9,
+   "concorrencia": 4,
+   "logistica": 6,
+   "risco": 7,
+   "sazonalidade": 8,
+   "margem": 3.0,
+   "margem_media": 0.08988432237881946,
+   "total": 6.05,
+   "posicao": 6
+  },
+  {
+   "id": "P09",
+   "produto": "Suporte veicular magnético",
+   "demanda": 5,
+   "concorrencia": 3,
+   "logistica": 9,
+   "risco": 7,
+   "sazonalidade": 4,
+   "margem": 5.3,
+   "margem_media": 0.15963552703275397,
+   "total": 5.38,
+   "posicao": 7
+  },
+  {
+   "id": "P03",
+   "produto": "Mini ventilador portátil",
+   "demanda": 6,
+   "concorrencia": 5,
+   "logistica": 8,
+   "risco": 5,
+   "sazonalidade": 10,
+   "margem": 2.3,
+   "margem_media": 0.06877977015743897,
+   "total": 5.38,
+   "posicao": 8
+  },
+  {
+   "id": "P12",
+   "produto": "Smartwatch",
+   "demanda": 10,
+   "concorrencia": 2,
+   "logistica": 8,
+   "risco": 1,
+   "sazonalidade": 7,
+   "margem": 1.9,
+   "margem_media": 0.05575581822318286,
+   "total": 4.92,
+   "posicao": 9
+  },
+  {
+   "id": "P11",
+   "produto": "Fone Bluetooth TWS",
+   "demanda": 10,
+   "concorrencia": 2,
+   "logistica": 9,
+   "risco": 1,
+   "sazonalidade": 7,
+   "margem": 0.2,
+   "margem_media": 0.006300847308652317,
+   "total": 4.6,
+   "posicao": 10
+  },
+  {
+   "id": "P08",
+   "produto": "Removedor de pelos pet",
+   "demanda": 3,
+   "concorrencia": 4,
+   "logistica": 9,
+   "risco": 9,
+   "sazonalidade": 3,
+   "margem": 2.5,
+   "margem_media": 0.075552461100684,
+   "total": 4.53,
+   "posicao": 11
+  },
+  {
+   "id": "P02",
+   "produto": "Garrafa motivacional 2 L",
+   "demanda": 3,
+   "concorrencia": 4,
+   "logistica": 7,
+   "risco": 7,
+   "sazonalidade": 3,
+   "margem": 2.8,
+   "margem_media": 0.08304791070637048,
+   "total": 4.1,
+   "posicao": 12
+  }
+ ],
+ "margens": [
+  {
+   "id": "P01",
+   "produto": "Copo térmico 1,2 L",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 54.9,
+   "com": 0.12,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 28.94,
+   "lucro": 7.680999999999994,
+   "margem": 0.13990892531876128,
+   "roi": 0.2654111955770558
+  },
+  {
+   "id": "P01",
+   "produto": "Copo térmico 1,2 L",
+   "canal": "Shopee (CNPJ)",
+   "preco": 49.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 28.94,
+   "lucro": 1.9889999999999937,
+   "margem": 0.03985971943887763,
+   "roi": 0.0687284035936418
+  },
+  {
+   "id": "P01",
+   "produto": "Copo térmico 1,2 L",
+   "canal": "Amazon (DBA)",
+   "preco": 54.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 28.94,
+   "lucro": 12.430999999999994,
+   "margem": 0.22642987249544616,
+   "roi": 0.4295438838977192
+  },
+  {
+   "id": "P01",
+   "produto": "Copo térmico 1,2 L",
+   "canal": "Magalu",
+   "preco": 54.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 28.94,
+   "lucro": 7.234999999999989,
+   "margem": 0.13178506375227667,
+   "roi": 0.2499999999999996
+  },
+  {
+   "id": "P02",
+   "produto": "Garrafa motivacional 2 L",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 29.9,
+   "com": 0.12,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 12.600000000000001,
+   "lucro": 4.270999999999994,
+   "margem": 0.1428428093645483,
+   "roi": 0.3389682539682534
+  },
+  {
+   "id": "P02",
+   "produto": "Garrafa motivacional 2 L",
+   "canal": "Shopee (CNPJ)",
+   "preco": 24.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 12.600000000000001,
+   "lucro": 0.5789999999999971,
+   "margem": 0.023253012048192655,
+   "roi": 0.04595238095238072
+  },
+  {
+   "id": "P02",
+   "produto": "Garrafa motivacional 2 L",
+   "canal": "Amazon (DBA)",
+   "preco": 29.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 12.600000000000001,
+   "lucro": 9.020999999999994,
+   "margem": 0.3017056856187289,
+   "roi": 0.7159523809523803
+  },
+  {
+   "id": "P02",
+   "produto": "Garrafa motivacional 2 L",
+   "canal": "Magalu",
+   "preco": 29.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 12.600000000000001,
+   "lucro": 4.824999999999996,
+   "margem": 0.16137123745819384,
+   "roi": 0.3829365079365076
+  },
+  {
+   "id": "P03",
+   "produto": "Mini ventilador portátil",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 34.9,
+   "com": 0.11,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 15.780000000000001,
+   "lucro": 5.389999999999997,
+   "margem": 0.1544412607449856,
+   "roi": 0.3415716096324459
+  },
+  {
+   "id": "P03",
+   "produto": "Mini ventilador portátil",
+   "canal": "Shopee (CNPJ)",
+   "preco": 27.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 15.780000000000001,
+   "lucro": -0.47100000000000364,
+   "margem": -0.016881720430107657,
+   "roi": -0.029847908745247377
+  },
+  {
+   "id": "P03",
+   "produto": "Mini ventilador portátil",
+   "canal": "Amazon (DBA)",
+   "preco": 34.9,
+   "com": 0.11,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 15.780000000000001,
+   "lucro": 10.139999999999997,
+   "margem": 0.2905444126074498,
+   "roi": 0.6425855513307982
+  },
+  {
+   "id": "P03",
+   "produto": "Mini ventilador portátil",
+   "canal": "Magalu",
+   "preco": 34.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 15.780000000000001,
+   "lucro": 5.3949999999999925,
+   "margem": 0.15458452722063015,
+   "roi": 0.3418884664131807
+  },
+  {
+   "id": "P04",
+   "produto": "Kit pincéis maquiagem",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 44.9,
+   "com": 0.13,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 13.551999999999998,
+   "margem": 0.301826280623608,
+   "roi": 0.9206521739130433
+  },
+  {
+   "id": "P04",
+   "produto": "Kit pincéis maquiagem",
+   "canal": "Shopee (CNPJ)",
+   "preco": 29.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 2.0089999999999986,
+   "margem": 0.06719063545150497,
+   "roi": 0.13648097826086947
+  },
+  {
+   "id": "P04",
+   "produto": "Kit pincéis maquiagem",
+   "canal": "Amazon (DBA)",
+   "preco": 44.9,
+   "com": 0.13,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 18.302,
+   "margem": 0.40761692650334075,
+   "roi": 1.2433423913043478
+  },
+  {
+   "id": "P04",
+   "produto": "Kit pincéis maquiagem",
+   "canal": "Magalu",
+   "preco": 44.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 13.954999999999997,
+   "margem": 0.3108017817371937,
+   "roi": 0.9480298913043476
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim RFID",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 34.9,
+   "com": 0.14,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 9.68,
+   "lucro": 10.442999999999994,
+   "margem": 0.29922636103151845,
+   "roi": 1.0788223140495863
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim RFID",
+   "canal": "Shopee (CNPJ)",
+   "preco": 27.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 9.68,
+   "lucro": 5.628999999999998,
+   "margem": 0.20175627240143362,
+   "roi": 0.5815082644628097
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim RFID",
+   "canal": "Amazon (DBA)",
+   "preco": 34.9,
+   "com": 0.14,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 9.68,
+   "lucro": 15.192999999999994,
+   "margem": 0.43532951289398264,
+   "roi": 1.5695247933884293
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim RFID",
+   "canal": "Magalu",
+   "preco": 34.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 9.68,
+   "lucro": 11.494999999999994,
+   "margem": 0.32936962750716314,
+   "roi": 1.1874999999999993
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco com maleta",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 99.9,
+   "com": 0.12,
+   "fixo": 0.0,
+   "frete": 25.0,
+   "custo": 43.78,
+   "lucro": 10.140999999999991,
+   "margem": 0.10151151151151142,
+   "roi": 0.23163544997715832
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco com maleta",
+   "canal": "Shopee (CNPJ)",
+   "preco": 89.9,
+   "com": 0.14,
+   "fixo": 16.0,
+   "frete": 0.0,
+   "custo": 43.78,
+   "lucro": 9.442999999999998,
+   "margem": 0.10503893214682979,
+   "roi": 0.2156920968478757
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco com maleta",
+   "canal": "Amazon (DBA)",
+   "preco": 99.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 23.0,
+   "custo": 43.78,
+   "lucro": 10.140999999999991,
+   "margem": 0.10151151151151142,
+   "roi": 0.23163544997715832
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco com maleta",
+   "canal": "Magalu",
+   "preco": 99.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 22.0,
+   "custo": 43.78,
+   "lucro": 4.144999999999996,
+   "margem": 0.04149149149149145,
+   "roi": 0.09467793513019634
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha de praia microfibra",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 49.9,
+   "com": 0.14,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 17.9,
+   "lucro": 13.772999999999996,
+   "margem": 0.2760120240480961,
+   "roi": 0.7694413407821228
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha de praia microfibra",
+   "canal": "Shopee (CNPJ)",
+   "preco": 39.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 17.9,
+   "lucro": 5.9289999999999985,
+   "margem": 0.14859649122807014,
+   "roi": 0.33122905027932953
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha de praia microfibra",
+   "canal": "Amazon (DBA)",
+   "preco": 49.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 17.9,
+   "lucro": 19.520999999999994,
+   "margem": 0.3912024048096191,
+   "roi": 1.0905586592178769
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha de praia microfibra",
+   "canal": "Magalu",
+   "preco": 49.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 17.9,
+   "lucro": 14.524999999999991,
+   "margem": 0.29108216432865713,
+   "roi": 0.81145251396648
+  },
+  {
+   "id": "P08",
+   "produto": "Removedor de pelos pet",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 24.9,
+   "com": 0.12,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 9.42,
+   "lucro": 3.500999999999996,
+   "margem": 0.14060240963855405,
+   "roi": 0.3716560509554136
+  },
+  {
+   "id": "P08",
+   "produto": "Removedor de pelos pet",
+   "canal": "Shopee (CNPJ)",
+   "preco": 19.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 9.42,
+   "lucro": 0.20899999999999785,
+   "margem": 0.010502512562813962,
+   "roi": 0.022186836518046482
+  },
+  {
+   "id": "P08",
+   "produto": "Removedor de pelos pet",
+   "canal": "Amazon (DBA)",
+   "preco": 24.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 9.42,
+   "lucro": 8.250999999999996,
+   "margem": 0.3313654618473894,
+   "roi": 0.8759023354564751
+  },
+  {
+   "id": "P08",
+   "produto": "Removedor de pelos pet",
+   "canal": "Magalu",
+   "preco": 24.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 9.42,
+   "lucro": 4.254999999999997,
+   "margem": 0.17088353413654608,
+   "roi": 0.45169851380042436
+  },
+  {
+   "id": "P09",
+   "produto": "Suporte veicular magnético",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 24.9,
+   "com": 0.12,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 7.5600000000000005,
+   "lucro": 5.360999999999995,
+   "margem": 0.21530120481927692,
+   "roi": 0.7091269841269835
+  },
+  {
+   "id": "P09",
+   "produto": "Suporte veicular magnético",
+   "canal": "Shopee (CNPJ)",
+   "preco": 19.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 7.5600000000000005,
+   "lucro": 2.0689999999999973,
+   "margem": 0.10396984924623102,
+   "roi": 0.2736772486772483
+  },
+  {
+   "id": "P09",
+   "produto": "Suporte veicular magnético",
+   "canal": "Amazon (DBA)",
+   "preco": 24.9,
+   "com": 0.11,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 7.5600000000000005,
+   "lucro": 10.359999999999998,
+   "margem": 0.4160642570281124,
+   "roi": 1.37037037037037
+  },
+  {
+   "id": "P09",
+   "produto": "Suporte veicular magnético",
+   "canal": "Magalu",
+   "preco": 24.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 7.5600000000000005,
+   "lucro": 6.114999999999997,
+   "margem": 0.24558232931726895,
+   "roi": 0.8088624338624334
+  },
+  {
+   "id": "P10",
+   "produto": "Organizador de mala 6 pç",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 34.9,
+   "com": 0.14,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 5.402999999999993,
+   "margem": 0.15481375358166172,
+   "roi": 0.3670516304347821
+  },
+  {
+   "id": "P10",
+   "produto": "Organizador de mala 6 pç",
+   "canal": "Shopee (CNPJ)",
+   "preco": 29.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 2.0089999999999986,
+   "margem": 0.06719063545150497,
+   "roi": 0.13648097826086947
+  },
+  {
+   "id": "P10",
+   "produto": "Organizador de mala 6 pç",
+   "canal": "Amazon (DBA)",
+   "preco": 34.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 10.850999999999997,
+   "margem": 0.31091690544412603,
+   "roi": 0.7371603260869563
+  },
+  {
+   "id": "P10",
+   "produto": "Organizador de mala 6 pç",
+   "canal": "Magalu",
+   "preco": 34.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 14.72,
+   "lucro": 6.454999999999993,
+   "margem": 0.1849570200573064,
+   "roi": 0.43851902173912993
+  },
+  {
+   "id": "P11",
+   "produto": "Fone Bluetooth TWS",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 49.9,
+   "com": 0.11,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 27.7,
+   "lucro": 5.469999999999995,
+   "margem": 0.10961923847695382,
+   "roi": 0.19747292418772547
+  },
+  {
+   "id": "P11",
+   "produto": "Fone Bluetooth TWS",
+   "canal": "Shopee (CNPJ)",
+   "preco": 39.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 27.7,
+   "lucro": -3.871000000000002,
+   "margem": -0.09701754385964918,
+   "roi": -0.13974729241877265
+  },
+  {
+   "id": "P11",
+   "produto": "Fone Bluetooth TWS",
+   "canal": "Amazon (DBA)",
+   "preco": 49.9,
+   "com": 0.11,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 27.7,
+   "lucro": 10.219999999999995,
+   "margem": 0.20480961923847688,
+   "roi": 0.3689530685920576
+  },
+  {
+   "id": "P11",
+   "produto": "Fone Bluetooth TWS",
+   "canal": "Magalu",
+   "preco": 49.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 27.7,
+   "lucro": 4.724999999999991,
+   "margem": 0.09468937875751485,
+   "roi": 0.17057761732851953
+  },
+  {
+   "id": "P12",
+   "produto": "Smartwatch",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 149.9,
+   "com": 0.11,
+   "fixo": 0.0,
+   "frete": 20.0,
+   "custo": 81.5,
+   "lucro": 18.419999999999987,
+   "margem": 0.12288192128085382,
+   "roi": 0.22601226993865015
+  },
+  {
+   "id": "P12",
+   "produto": "Smartwatch",
+   "canal": "Shopee (CNPJ)",
+   "preco": 129.9,
+   "com": 0.14,
+   "fixo": 20.0,
+   "frete": 0.0,
+   "custo": 81.5,
+   "lucro": -1.4770000000000039,
+   "margem": -0.011370284834488096,
+   "roi": -0.018122699386503113
+  },
+  {
+   "id": "P12",
+   "produto": "Smartwatch",
+   "canal": "Amazon (DBA)",
+   "preco": 149.9,
+   "com": 0.11,
+   "fixo": 2.0,
+   "frete": 18.0,
+   "custo": 81.5,
+   "lucro": 18.419999999999987,
+   "margem": 0.12288192128085382,
+   "roi": 0.22601226993865015
+  },
+  {
+   "id": "P12",
+   "produto": "Smartwatch",
+   "canal": "Magalu",
+   "preco": 149.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 15.0,
+   "custo": 81.5,
+   "lucro": 10.924999999999983,
+   "margem": 0.07288192128085379,
+   "roi": 0.134049079754601
+  }
+ ],
+ "kits": [
+  {
+   "id": "P01",
+   "produto": "Kit 2 copos térmicos 1,2 L",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 99.9,
+   "com": 0.12,
+   "fixo": 0.0,
+   "frete": 25.0,
+   "custo": 54.38,
+   "lucro": -0.4590000000000103,
+   "margem": -0.004594594594594698,
+   "roi": -0.008440603162927735
+  },
+  {
+   "id": "P01",
+   "produto": "Kit 2 copos térmicos 1,2 L",
+   "canal": "Shopee (CNPJ)",
+   "preco": 99.9,
+   "com": 0.14,
+   "fixo": 16.0,
+   "frete": 0.0,
+   "custo": 54.38,
+   "lucro": 6.542999999999999,
+   "margem": 0.06549549549549548,
+   "roi": 0.12031997057741815
+  },
+  {
+   "id": "P01",
+   "produto": "Kit 2 copos térmicos 1,2 L",
+   "canal": "Amazon (DBA)",
+   "preco": 99.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 23.0,
+   "custo": 54.38,
+   "lucro": -0.4590000000000103,
+   "margem": -0.004594594594594698,
+   "roi": -0.008440603162927735
+  },
+  {
+   "id": "P01",
+   "produto": "Kit 2 copos térmicos 1,2 L",
+   "canal": "Magalu",
+   "preco": 99.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 22.0,
+   "custo": 54.38,
+   "lucro": -6.455000000000005,
+   "margem": -0.06461461461461467,
+   "roi": -0.1187017285766827
+  },
+  {
+   "id": "P03",
+   "produto": "Kit 2 mini ventiladores",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 59.9,
+   "com": 0.11,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 29.560000000000002,
+   "lucro": 11.609999999999992,
+   "margem": 0.19382303839732876,
+   "roi": 0.39276048714478995
+  },
+  {
+   "id": "P03",
+   "produto": "Kit 2 mini ventiladores",
+   "canal": "Shopee (CNPJ)",
+   "preco": 59.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 29.560000000000002,
+   "lucro": 8.468999999999994,
+   "margem": 0.1413856427378964,
+   "roi": 0.2865020297699592
+  },
+  {
+   "id": "P03",
+   "produto": "Kit 2 mini ventiladores",
+   "canal": "Amazon (DBA)",
+   "preco": 59.9,
+   "com": 0.11,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 29.560000000000002,
+   "lucro": 16.359999999999992,
+   "margem": 0.2731218697829715,
+   "roi": 0.5534506089309875
+  },
+  {
+   "id": "P03",
+   "produto": "Kit 2 mini ventiladores",
+   "canal": "Magalu",
+   "preco": 59.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 29.560000000000002,
+   "lucro": 10.364999999999988,
+   "margem": 0.17303839732888127,
+   "roi": 0.3506427604871443
+  },
+  {
+   "id": "P04",
+   "produto": "Kit 12 pincéis + necessaire + esponja",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 59.9,
+   "com": 0.13,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 20.02,
+   "lucro": 19.951999999999995,
+   "margem": 0.33308848080133546,
+   "roi": 0.9966033966033964
+  },
+  {
+   "id": "P04",
+   "produto": "Kit 12 pincéis + necessaire + esponja",
+   "canal": "Shopee (CNPJ)",
+   "preco": 59.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 20.02,
+   "lucro": 18.008999999999997,
+   "margem": 0.30065108514190314,
+   "roi": 0.8995504495504494
+  },
+  {
+   "id": "P04",
+   "produto": "Kit 12 pincéis + necessaire + esponja",
+   "canal": "Amazon (DBA)",
+   "preco": 59.9,
+   "com": 0.13,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 20.02,
+   "lucro": 24.701999999999995,
+   "margem": 0.4123873121869782,
+   "roi": 1.2338661338661336
+  },
+  {
+   "id": "P04",
+   "produto": "Kit 12 pincéis + necessaire + esponja",
+   "canal": "Magalu",
+   "preco": 59.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 20.02,
+   "lucro": 19.90499999999999,
+   "margem": 0.332303839732888,
+   "roi": 0.9942557442557438
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim + caixa de presente",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 44.9,
+   "com": 0.14,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 12.86,
+   "lucro": 14.962999999999994,
+   "margem": 0.333251670378619,
+   "roi": 1.1635303265940897
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim + caixa de presente",
+   "canal": "Shopee (CNPJ)",
+   "preco": 44.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 12.86,
+   "lucro": 14.518999999999998,
+   "margem": 0.3233630289532294,
+   "roi": 1.12900466562986
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim + caixa de presente",
+   "canal": "Amazon (DBA)",
+   "preco": 44.9,
+   "com": 0.14,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 12.86,
+   "lucro": 19.712999999999994,
+   "margem": 0.4390423162583518,
+   "roi": 1.532892690513219
+  },
+  {
+   "id": "P05",
+   "produto": "Carteira slim + caixa de presente",
+   "canal": "Magalu",
+   "preco": 44.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 12.86,
+   "lucro": 15.814999999999998,
+   "margem": 0.35222717149220484,
+   "roi": 1.2297822706065318
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco 5 pç + avental (versão presente)",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 129.9,
+   "com": 0.12,
+   "fixo": 0.0,
+   "frete": 25.0,
+   "custo": 53.32,
+   "lucro": 24.300999999999995,
+   "margem": 0.18707467282525014,
+   "roi": 0.4557576894223555
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco 5 pç + avental (versão presente)",
+   "canal": "Shopee (CNPJ)",
+   "preco": 129.9,
+   "com": 0.14,
+   "fixo": 20.0,
+   "frete": 0.0,
+   "custo": 53.32,
+   "lucro": 26.702999999999996,
+   "margem": 0.20556581986143183,
+   "roi": 0.5008064516129032
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco 5 pç + avental (versão presente)",
+   "canal": "Amazon (DBA)",
+   "preco": 129.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 23.0,
+   "custo": 53.32,
+   "lucro": 24.300999999999995,
+   "margem": 0.18707467282525014,
+   "roi": 0.4557576894223555
+  },
+  {
+   "id": "P06",
+   "produto": "Kit churrasco 5 pç + avental (versão presente)",
+   "canal": "Magalu",
+   "preco": 129.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 22.0,
+   "custo": 53.32,
+   "lucro": 17.104999999999983,
+   "margem": 0.1316782140107774,
+   "roi": 0.32079894973743406
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha + bolsa estanque",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 64.9,
+   "com": 0.14,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 23.200000000000003,
+   "lucro": 20.022999999999996,
+   "margem": 0.30852080123266556,
+   "roi": 0.863060344827586
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha + bolsa estanque",
+   "canal": "Shopee (CNPJ)",
+   "preco": 64.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 23.200000000000003,
+   "lucro": 18.378999999999998,
+   "margem": 0.2831895223420647,
+   "roi": 0.7921982758620688
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha + bolsa estanque",
+   "canal": "Amazon (DBA)",
+   "preco": 64.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 23.200000000000003,
+   "lucro": 26.070999999999998,
+   "margem": 0.4017103235747303,
+   "roi": 1.1237499999999998
+  },
+  {
+   "id": "P07",
+   "produto": "Toalha + bolsa estanque",
+   "canal": "Magalu",
+   "preco": 64.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 23.200000000000003,
+   "lucro": 20.474999999999994,
+   "margem": 0.31548536209553146,
+   "roi": 0.8825431034482755
+  },
+  {
+   "id": "P10",
+   "produto": "Kit 6 organizadores + necessaire de higiene",
+   "canal": "Mercado Livre (Clássico)",
+   "preco": 49.9,
+   "com": 0.14,
+   "fixo": 6.75,
+   "frete": 0.0,
+   "custo": 20.46,
+   "lucro": 11.212999999999994,
+   "margem": 0.22470941883767523,
+   "roi": 0.548044965786901
+  },
+  {
+   "id": "P10",
+   "produto": "Kit 6 organizadores + necessaire de higiene",
+   "canal": "Shopee (CNPJ)",
+   "preco": 49.9,
+   "com": 0.2,
+   "fixo": 4.5,
+   "frete": 0.0,
+   "custo": 20.46,
+   "lucro": 10.468999999999994,
+   "margem": 0.2097995991983967,
+   "roi": 0.5116813294232646
+  },
+  {
+   "id": "P10",
+   "produto": "Kit 6 organizadores + necessaire de higiene",
+   "canal": "Amazon (DBA)",
+   "preco": 49.9,
+   "com": 0.12,
+   "fixo": 2.0,
+   "frete": 0.0,
+   "custo": 20.46,
+   "lucro": 16.96099999999999,
+   "margem": 0.33989979959919825,
+   "roi": 0.8289833822091882
+  },
+  {
+   "id": "P10",
+   "produto": "Kit 6 organizadores + necessaire de higiene",
+   "canal": "Magalu",
+   "preco": 49.9,
+   "com": 0.16,
+   "fixo": 5.0,
+   "frete": 0.0,
+   "custo": 20.46,
+   "lucro": 11.96499999999999,
+   "margem": 0.23977955911823626,
+   "roi": 0.5847996089931569
+  }
+ ],
+ "est": {
+  "P01": {
+   "Mercado Livre": {
+    "n": 11,
+    "min": 39.52,
+    "med": 50.67,
+    "max": 147.63
+   },
+   "Shopee": {
+    "n": 1,
+    "min": 39.98,
+    "med": 39.98,
+    "max": 39.98
+   },
+   "max_aval": 1247
+  },
+  "P02": {
+   "Mercado Livre": {
+    "n": 6,
+    "min": 24.99,
+    "med": 36.295,
+    "max": 138.32
+   },
+   "Shopee": {
+    "n": 3,
+    "min": 11.99,
+    "med": 32.99,
+    "max": 39.99
+   },
+   "max_aval": 195
+  },
+  "P03": {
+   "Mercado Livre": {
+    "n": 7,
+    "min": 20.99,
+    "med": 33.57,
+    "max": 99.5
+   },
+   "Shopee": {
+    "n": 2,
+    "min": 18.99,
+    "med": 18.99,
+    "max": 18.99
+   },
+   "max_aval": 1492
+  },
+  "P04": {
+   "Mercado Livre": {
+    "n": 8,
+    "min": 18.4,
+    "med": 45.34,
+    "max": 68.7
+   },
+   "Shopee": {
+    "n": 5,
+    "min": 8.5,
+    "med": 12.99,
+    "max": 89.9
+   },
+   "max_aval": 808
+  },
+  "P05": {
+   "Mercado Livre": {
+    "n": 6,
+    "min": 21.39,
+    "med": 51.99,
+    "max": 115.0
+   },
+   "Shopee": {
+    "n": 0,
+    "min": null,
+    "med": null,
+    "max": null
+   },
+   "max_aval": 2235
+  },
+  "P06": {
+   "Mercado Livre": {
+    "n": 9,
+    "min": 51.4,
+    "med": 107.99,
+    "max": 189.59
+   },
+   "Shopee": {
+    "n": 3,
+    "min": 53.99,
+    "med": 68.99,
+    "max": 78.99
+   },
+   "max_aval": 116
+  },
+  "P07": {
+   "Mercado Livre": {
+    "n": 6,
+    "min": 35.2,
+    "med": 52.99,
+    "max": 76.9
+   },
+   "Shopee": {
+    "n": 0,
+    "min": null,
+    "med": null,
+    "max": null
+   },
+   "max_aval": 473
+  },
+  "P08": {
+   "Mercado Livre": {
+    "n": 6,
+    "min": 17.6,
+    "med": 26.0,
+    "max": 122.78
+   },
+   "Shopee": {
+    "n": 0,
+    "min": null,
+    "med": null,
+    "max": null
+   },
+   "max_aval": 1466
+  },
+  "P09": {
+   "Mercado Livre": {
+    "n": 6,
+    "min": 12.89,
+    "med": 27.5,
+    "max": 62.0
+   },
+   "Shopee": {
+    "n": 0,
+    "min": null,
+    "med": null,
+    "max": null
+   },
+   "max_aval": 847
+  },
+  "P10": {
+   "Mercado Livre": {
+    "n": 5,
+    "min": 20.39,
+    "med": 24.43,
+    "max": 59.18
+   },
+   "Shopee": {
+    "n": 7,
+    "min": 15.99,
+    "med": 24.95,
+    "max": 57.82
+   },
+   "max_aval": 1255
+  },
+  "P11": {
+   "Mercado Livre": {
+    "n": 5,
+    "min": 19.6,
+    "med": 43.52,
+    "max": 55.23
+   },
+   "Shopee": {
+    "n": 0,
+    "min": null,
+    "med": null,
+    "max": null
+   },
+   "max_aval": 4341
+  },
+  "P12": {
+   "Mercado Livre": {
+    "n": 4,
+    "min": 198.85,
+    "med": 263.7,
+    "max": 308.99
+   },
+   "Shopee": {
+    "n": 0,
+    "min": null,
+    "med": null,
+    "max": null
+   },
+   "max_aval": 15788
+  }
+ },
+ "imp": {
+  "P01": [
+   48.546,
+   93.58265060240966
+  ],
+  "P02": [
+   22.32,
+   43.02650602409639
+  ],
+  "P03": [
+   29.016000000000002,
+   55.934457831325304
+  ],
+  "P04": [
+   21.204,
+   40.87518072289157
+  ],
+  "P05": [
+   12.834,
+   24.740240963855424
+  ],
+  "P06": [
+   97.092,
+   187.16530120481931
+  ],
+  "P07": [
+   29.573999999999998,
+   57.01012048192771
+  ],
+  "P08": [
+   14.508000000000001,
+   27.967228915662652
+  ],
+  "P09": [
+   9.486,
+   18.286265060240968
+  ],
+  "P10": [
+   34.038,
+   65.61542168674698
+  ],
+  "P11": [
+   27.6768,
+   53.35286746987953
+  ],
+  "P12": [
+   78.12,
+   150.5927710843374
+  ]
+ }
+}
